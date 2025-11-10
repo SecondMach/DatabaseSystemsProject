@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login — Olympics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🏅 Olympics</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="athlete.html">Athletes</a></li>
+        <li><a href="analytics.html">Analytics</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="login-container">
+    <h2>Welcome Back</h2>
+    <p>Login to continue as a Regular User or Admin</p>
+
+    <form class="login-form">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" required>
+
+      <button type="submit">Login</button>
+    </form>
+
+    <p class="login-note">Regular users can browse data freely. Admin users can manage athletes and games.</p>
+  </section>
+</body>
+</html>
