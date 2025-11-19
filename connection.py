@@ -1,3 +1,9 @@
+"""
+A simple program to check our connection to AWS
+"""
+
+__author__ = "Debra Ritter"
+
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import OperationalError
 import os
@@ -11,7 +17,7 @@ DB_HOST = os.environ.get("DB_HOST")
 DB_PORT = os.environ.get("DB_PORT")
 DB_NAME = os.environ.get("DB_NAME")
 
-DATABASE_URI = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+DATABASE_URI: str = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
 try:
     # Create a database engine
