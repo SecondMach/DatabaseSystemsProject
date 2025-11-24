@@ -1,5 +1,4 @@
-"""
-A simple program to check our connection to AWS
+"""A simple program to check our connection to AWS
 """
 
 __author__ = "Debra Ritter"
