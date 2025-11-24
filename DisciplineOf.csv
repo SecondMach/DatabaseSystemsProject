@@ -1,0 +1,1906 @@
+Event,Discipline
+SinglesOlympic,Tennis
+DoublesOlympic,Tennis
+DoublesMixedOlympic,Tennis
+SinglesOlympic,Table Tennis
+DoublesOlympic,Table Tennis
+SinglesHandicapOlympicnonmedal,Tennis
+DoublesHandicapOlympicnonmedal,Tennis
+peIndividualOlympic,Fencing
+Tennis,Fencing
+DoublesOlympic,Fencing
+DoublesHandicapMixedOlympicnonmedal,Fencing
+SinglesHandicapOlympicnonmedal,Fencing
+DoublesHandicapOlympicnonmedal,Fencing
+SinglesIntercalated,Tennis
+DoublesMixedIntercalated,Tennis
+DoublesIntercalated,Tennis
+DoublesCoveredCourtsMixedOlympic,Tennis
+SinglesCoveredCourtsOlympic,Tennis
+SinglesOlympicnonmedal,Tennis
+DoublesHandicapMixedOlympicnonmedal,Tennis
+DoublesCoveredCourtsOlympic,Tennis
+Polo,Tennis
+PoloOlympicnonmedal,Tennis
+SinglesOlympic,Badminton
+SinglesCoveredCourtsOlympic,Tennis
+SinglesOlympic,Tennis
+DoublesOlympic,Tennis
+DoublesOlympic,Badminton
+DoublesMixedOlympic,Badminton
+SinglesHandicapOlympicnonmedal,Tennis
+SinglesOlympic,Table Tennis
+DoublesOlympic,Table Tennis
+SinglesOlympic,Badminton
+DoublesOlympic,Badminton
+SinglesOlympicnonmedal,Badminton
+SinglesOlympicnonmedal,Tennis
+TeamOlympic,Table Tennis
+DoublesOlympicnonmedal,Tennis
+HockeyOlympic,Hockey
+Tennis,Hockey
+SinglesOlympic,Hockey
+DoublesOlympic,Hockey
+100metresOlympic,Athletics
+400metresOlympic,Athletics
+800metresOlympic,Athletics
+110metresHurdlesOlympic,Athletics
+HighJumpOlympic,Athletics
+PoleVaultOlympic,Athletics
+LongJumpOlympic,Athletics
+TripleJumpOlympic,Athletics
+Tennis,Athletics
+SinglesOlympic,Athletics
+DoublesOlympic,Athletics
+TeamOlympic,Table Tennis
+SwimmingAquatics,Tennis
+100metresFreestyleOlympic,Tennis
+500metresFreestyleOlympic,Tennis
+1200metresFreestyleOlympic,Tennis
+ArchitectureOpenOlympic,Art Competitions
+Weightlifting,Tennis
+UnlimitedTwoHandsOlympic,Tennis
+Wrestling,Tennis
+UnlimitedClassGrecoRomanOlympic,Tennis
+Athletics,Tennis
+PoleVaultOlympic,Tennis
+LongJumpOlympic,Tennis
+ShotPutOlympic,Tennis
+IndividualOlympic,Modern Pentathlon
+TeamOlympic,Modern Pentathlon
+IndividualOlympic,Archery
+IndividualOlympic,Archery
+TeamOlympic,Archery
+TeamOlympic,Archery
+TargetArchery28metresTeamOlympic,Archery
+TargetArchery33metresTeamOlympic,Archery
+TargetArchery50metresTeamOlympic,Archery
+PoleArcherySmallBirdsIndividualOlympic,Archery
+PoleArcheryLargeBirdsIndividualOlympic,Archery
+PoleArcherySmallBirdsTeamOlympic,Archery
+PoleArcheryLargeBirdsTeamOlympic,Archery
+SurLaPercheLaHerseOlympic,Archery
+AuChapelet33metresOlympic,Archery
+AuChapelet50metresOlympic,Archery
+AuCordonDor33metresOlympic,Archery
+AuCordonDor50metresOlympic,Archery
+ChampionnatDuMondeOlympic,Archery
+TargetArchery28metresIndividualOlympic,Archery
+TargetArchery33metresIndividualOlympic,Archery
+TargetArchery50metresIndividualOlympic,Archery
+ContinentalStyleOlympic,Archery
+DoubleYorkRoundOlympic,Archery
+SurLaPercheLaPyramideOlympic,Archery
+FrenchChampionshipIndividualOlympicnonmedal,Archery
+DoubleNationalRoundOlympic,Archery
+1500metresOlympic,Athletics
+MarathonOlympic,Athletics
+DoublesOlympicnonmedal,Badminton
+DoublesOlympicnonmedal,Badminton
+SinglesOlympicnonmedal,Badminton
+DoublesMixedOlympicnonmedal,Badminton
+WelterweightOlympic,Boxing
+LightHeavyweightOlympic,Boxing
+FeatherweightOlympic,Boxing
+LightWelterweightOlympic,Boxing
+FlyweightOlympic,Boxing
+LightweightOlympic,Boxing
+HeavyweightOlympic,Boxing
+BantamweightOlympic,Boxing
+LightFlyweightOlympic,Boxing
+MiddleweightOlympic,Boxing
+LightMiddleweightOlympic,Boxing
+SuperHeavyweightOlympic,Boxing
+SoftballOlympic,Softball (Baseball/Softball)
+BaseballOlympic,Baseball (Baseball/Softball)
+BaseballOlympicnonmedal,Baseball (Baseball/Softball)
+TeamMixedOlympic,Archery
+DoubleColumbiaRoundOlympic,Archery
+TeamRoundOlympic,Archery
+FlightShootingOlympicnonmedal,Archery
+DoubleAmericanRoundOlympic,Archery
+TeamRoundOlympic,Archery
+FlightShootingOlympicnonmedal,Archery
+8metresOpenOlympic,Sailing
+Tennis,Sailing
+SinglesOlympic,Sailing
+DoublesMixedOlympic,Sailing
+DoublesOlympic,Sailing
+SinglesCoveredCourtsOlympic,Sailing
+DoublesCoveredCourtsOlympic,Sailing
+PaintingUnknownEventOpenOlympic,Art Competitions
+IndividualOlympic,Golf
+IndividualOlympicnonmedal,Golf
+Tennis,Golf
+DoublesOlympic,Golf
+TeamOlympic,Golf
+TeamOlympicnonmedal,Golf
+SinglesOlympic,Golf
+SinglesOlympicnonmedal,Golf
+DoublesOlympicnonmedal,Golf
+IndividualHandicapOlympicnonmedal,Golf
+DoublesMixedOlympic,Golf
+DoublesHandicapMixedOlympicnonmedal,Golf
+DoublesHandicapOlympicnonmedal,Golf
+SinglesHandicapOlympicnonmedal,Golf
+SinglesOlympic,Jeu De Paume
+LongJumpOlympicnonmedal,Tennis
+LongJumpHandicapOlympicnonmedal,Tennis
+Golf,Tennis
+IndividualOlympic,Tennis
+BasketballOlympic,Basketball (Basketball)
+RoadRaceIndividualOlympic,Cycling Road (Cycling)
+BasketballOlympic,Basketball (Basketball)
+TripleJumpOlympic,Athletics
+HandballOlympic,Handball
+AustralianRulesFootballOlympicnonmedal,Australian Rules Football
+OnePersonDinghyOpenOlympic,Sailing
+DecathlonOlympic,Athletics
+FourOlympic,Bobsleigh (Bobsleigh)
+FootballFootball,Boxing
+FootballOlympic,Boxing
+Athletics,Boxing
+100yardsOlympicnonmedal,Boxing
+440yardsOlympicnonmedal,Boxing
+100yardsHandicapOlympicnonmedal,Boxing
+220yardsHandicapOlympicnonmedal,Boxing
+440yardsHandicapOlympicnonmedal,Boxing
+KayakDoubles500metresOlympic,Canoe Sprint (Canoeing)
+KayakSingles500metresOlympic,Canoe Sprint (Canoeing)
+KayakDoubles500metresOlympic,Canoe Sprint (Canoeing)
+KayakFours1000metresOlympic,Canoe Sprint (Canoeing)
+KayakSingles500metresOlympic,Canoe Sprint (Canoeing)
+KayakDoubles1000metresOlympic,Canoe Sprint (Canoeing)
+KayakSingles1000metresOlympic,Canoe Sprint (Canoeing)
+KayakSinglesSlalomOlympic,Canoe Slalom (Canoeing)
+KayakFours500metresOlympic,Canoe Sprint (Canoeing)
+KayakSinglesSlalomOlympic,Canoe Slalom (Canoeing)
+KayakSingles10000metresOlympic,Canoe Marathon (Canoeing)
+CanadianSinglesSlalomOlympic,Canoe Slalom (Canoeing)
+CanoeMarathonCanoeing,Canoe Sprint (Canoeing)
+KayakDoubles10000metresOlympic,Canoe Sprint (Canoeing)
+KayakRelay4500metresOlympic,Canoe Sprint (Canoeing)
+CanadianDoublesSlalomOlympic,Canoe Slalom (Canoeing)
+CanadianSingles1000metresOlympic,Canoe Sprint (Canoeing)
+CanadianSingles10000metresOlympic,Canoe Sprint (Canoeing)
+CanadianDoubles1000metresOlympic,Canoe Sprint (Canoeing)
+CanadianDoubles10000metresOlympic,Canoe Sprint (Canoeing)
+FoldingKayakDoubles10000metresOlympic,Canoe Sprint (Canoeing)
+FoldingKayakSingles10000metresOlympic,Canoe Sprint (Canoeing)
+KayakDoubles10000metresOlympic,Canoe Marathon (Canoeing)
+KayakSingles10000metresOlympic,Canoe Sprint (Canoeing)
+FoldingKayakSingles10000metresOlympic,Canoe Marathon (Canoeing)
+FoldingKayakDoubles10000metresOlympic,Canoe Marathon (Canoeing)
+CanadianSingles500metresOlympic,Canoe Sprint (Canoeing)
+CanadianDoubles500metresOlympic,Canoe Sprint (Canoeing)
+SmallBoreRifleProne50metresOpenOlympic,Shooting
+CanadianDoubles10000metresOlympic,Canoe Marathon (Canoeing)
+CanadianSingles10000metresOlympic,Canoe Marathon (Canoeing)
+SingleScullsOlympic,Rowing
+TeamPursuit4000metresOlympic,Cycling Track (Cycling)
+RoadRaceTeamOlympic,Cycling Road (Cycling)
+100kilometresTeamTimeTrialOlympic,Cycling Road (Cycling)
+PoloOlympic,Polo
+RugbyOlympic,Rugby (Rugby)
+EightsOlympic,Rowing
+IndividualOpenOlympic,Equestrian Dressage (Equestrian)
+TeamOpenOlympic,Equestrian Dressage (Equestrian)
+TeamOpenOlympic,Equestrian Eventing (Equestrian)
+IndividualOpenOlympic,Equestrian Eventing (Equestrian)
+IndividualOpenOlympic,Equestrian Jumping (Equestrian)
+TeamOpenOlympic,Equestrian Jumping (Equestrian)
+TugOfWarOlympic,Tug-Of-War
+LacrosseOlympic,Lacrosse
+HacksandHunterCombinedOpenOlympic,Equestrian Dressage (Equestrian)
+SpringboardOlympic,Diving (Aquatics)
+IndividualOlympic,Equestrian Jumping (Equestrian)
+TeamOlympic,Equestrian Jumping (Equestrian)
+IndividualOlympic,Equestrian Eventing (Equestrian)
+TeamOlympic,Equestrian Eventing (Equestrian)
+IndividualOlympic,Equestrian Dressage (Equestrian)
+TeamOlympic,Equestrian Dressage (Equestrian)
+EquestrianEventingEquestrian,Equestrian Jumping (Equestrian)
+WinterPentathlonOlympicnonmedal,Winter Pentathlon
+EquestrianEventingEquestrian,Equestrian Dressage (Equestrian)
+IndividualOlympic,Equestrian Vaulting (Equestrian)
+TeamOlympic,Equestrian Vaulting (Equestrian)
+FourInHandCompetitionOpenOlympic,Equestrian Driving (Equestrian)
+EquestrianDressageEquestrian,Equestrian Jumping (Equestrian)
+SabreTeamOlympic,Fencing
+EquestrianEventingEquestrian,Fencing
+IndividualOlympic,Fencing
+TeamOlympic,Fencing
+LongJumpOpenOlympic,Equestrian Jumping (Equestrian)
+HacksandHunterCombinedOpenOlympic,Equestrian Jumping (Equestrian)
+HighJumpOpenOlympic,Equestrian Jumping (Equestrian)
+EquestrianEventingEquestrian,Modern Pentathlon
+EquestrianDrivingEquestrian,Equestrian Jumping (Equestrian)
+FourInHandCompetitionOpenOlympic,Equestrian Jumping (Equestrian)
+EquestrianDrivingEquestrian,Equestrian Dressage (Equestrian)
+FourInHandCompetitionOpenOlympic,Equestrian Dressage (Equestrian)
+FourFiveOlympic,Bobsleigh (Bobsleigh)
+SabreIndividualOlympic,Fencing
+20kilometresOlympic,Cycling Track (Cycling)
+IndividualPursuit4000metresOlympic,Cycling Track (Cycling)
+SprintOlympic,Cycling Track (Cycling)
+CyclingTrackCycling,Cycling Road (Cycling)
+SprintOlympic,Cycling Road (Cycling)
+1000metresTimeTrialOlympic,Cycling Road (Cycling)
+PointsRaceOlympic,Cycling Road (Cycling)
+RoadRaceIndividualOlympic,Cycling Road (Cycling)
+CyclingMountainBikeCycling,Cycling Road (Cycling)
+CrossCountryOlympic,Cycling Road (Cycling)
+CrossCountryOlympic,Cycling Mountain Bike (Cycling)
+IndividualPursuitOlympic,Cycling Track (Cycling)
+PointsRaceOlympic,Cycling Track (Cycling)
+IndividualTimeTrialOlympic,Cycling Road (Cycling)
+IndividualPursuitOlympic,Cycling Road (Cycling)
+PointsRaceOlympic,Cycling Road (Cycling)
+TeamPursuitOlympic,Cycling Road (Cycling)
+SprintOlympic,Cycling Track (Cycling)
+500metresTimeTrialOlympic,Cycling Track (Cycling)
+TwoOlympic,Bobsleigh (Bobsleigh)
+3000metresOlympic,Athletics
+3000metresOlympic,Speed Skating (Skating)
+5000metresOlympic,Speed Skating (Skating)
+TeamPursuit6lapsOlympic,Speed Skating (Skating)
+KeirinOlympic,Cycling Track (Cycling)
+TeamSprintOlympic,Cycling Track (Cycling)
+SprintOlympic,Cycling Road (Cycling)
+IndividualPursuit4000metresOlympic,Cycling Road (Cycling)
+1000metresTimeTrialOlympic,Cycling Track (Cycling)
+PointsRaceOlympic,Cycling Track (Cycling)
+MadisonOlympic,Cycling Track (Cycling)
+50kilometresOlympic,Cycling Track (Cycling)
+TeamPursuit4000metresOlympic,Cycling Road (Cycling)
+TandemSprint2000metresOlympic,Cycling Track (Cycling)
+TeamPursuit1980yardsOlympic,Cycling Track (Cycling)
+5000metresOlympic,Cycling Track (Cycling)
+100kilometresOlympic,Cycling Track (Cycling)
+IndividualTimeTrialOlympic,Cycling Road (Cycling)
+mileOlympic,Cycling Track (Cycling)
+mileOlympic,Cycling Track (Cycling)
+5milesOlympic,Cycling Track (Cycling)
+25milesOlympic,Cycling Track (Cycling)
+mileHandicapOlympicnonmedal,Cycling Track (Cycling)
+CrossCountryOlympic,Cycling Mountain Bike (Cycling)
+333metresTimeTrialOlympic,Cycling Road (Cycling)
+100kilometresOlympic,Cycling Road (Cycling)
+TeamSprintOlympic,Cycling Track (Cycling)
+mileOlympic,Cycling Track (Cycling)
+1mileOlympic,Cycling Track (Cycling)
+2milesOlympic,Cycling Track (Cycling)
+1mileNoviceOlympicnonmedal,Cycling Track (Cycling)
+TandemSprint2000metresOlympic,Cycling Road (Cycling)
+SprintIntercalated,Cycling Track (Cycling)
+333metresTimeTrialIntercalated,Cycling Track (Cycling)
+5000metresIntercalated,Cycling Track (Cycling)
+20kilometresIntercalated,Cycling Track (Cycling)
+50kilometresOlympic,Cycling Road (Cycling)
+KeirinOlympic,Cycling Track (Cycling)
+MadisonOlympic,Cycling Road (Cycling)
+OmniumOlympic,Cycling Track (Cycling)
+25kilometresOlympic,Cycling Track (Cycling)
+FootballOlympic,Football (Football)
+CyclingTrackCycling,Football (Football)
+SprintOlympic,Football (Football)
+SingleScullsIntercalated,Rowing
+CoxedPairs1kilometreIntercalated,Rowing
+CoxedPairs1mileIntercalated,Rowing
+CoxedFoursIntercalated,Rowing
+CyclingTrackCycling,Rowing
+SprintIntercalated,Rowing
+5000metresIntercalated,Rowing
+10000metresOlympic,Cycling Road (Cycling)
+CrossCountryOlympic,Cycling Road (Cycling)
+1mileHandicapOlympicnonmedal,Cycling Track (Cycling)
+5milesHandicapOlympicnonmedal,Cycling Track (Cycling)
+RoadRaceIndividualIntercalated,Cycling Road (Cycling)
+SprintIntercalated,Cycling Road (Cycling)
+333metresTimeTrialIntercalated,Cycling Road (Cycling)
+TandemSprint2000metresIntercalated,Cycling Road (Cycling)
+5000metresIntercalated,Cycling Road (Cycling)
+12HoursRaceOlympic,Cycling Road (Cycling)
+20kilometresIntercalated,Cycling Road (Cycling)
+12HoursRaceOlympic,Cycling Track (Cycling)
+TandemSprint2000metresIntercalated,Cycling Track (Cycling)
+BicyclePoloOlympicnonmedal,Bicycle Polo (Cycling)
+Athletics,Cycling Road (Cycling)
+4100metresRelayOlympic,Cycling Road (Cycling)
+18kilometresOlympic,Cross Country Skiing (Skiing)
+50kilometresOlympic,Cross Country Skiing (Skiing)
+CyclingRoadCycling,Fencing
+RoadRaceIndividualOlympic,Fencing
+CyclingTrackCycling,Fencing
+333metresTimeTrialOlympic,Fencing
+10000metresOlympic,Fencing
+100kilometresOlympic,Fencing
+12HoursRaceOlympic,Fencing
+HockeyOlympic,Hockey
+400metresOlympic,Athletics
+4400metresRelayOlympic,Athletics
+SinglesOlympic,Racquets
+TwoOlympic,Bobsleigh (Bobsleigh)
+PoloOlympicnonmedal,Polo
+CricketOlympic,Cricket
+SinglesOneBallOpenOlympic,Croquet
+DoublesOpenOlympic,Croquet
+SinglesTwoBallsOpenOlympic,Croquet
+SinglesTwoBallsHandicapOlympicnonmedal,Croquet
+IndividualOlympic,Golf
+AClassOpenOpenOlympic,Motorboating
+TugOfWar,Rugby (Rugby)
+TugOfWarOlympic,Rugby (Rugby)
+Athletics,Rugby (Rugby)
+200metresHurdlesOlympic,Rugby (Rugby)
+DiscusThrowOlympic,Rugby (Rugby)
+Athletics,Tug-Of-War
+ShotPutHandicapOlympicnonmedal,Tug-Of-War
+FoilIndividualOlympic,Fencing
+BClassUnder60feetOpenOlympic,Motorboating
+CClassOpenOlympic,Motorboating
+DoublesOlympic,Racquets
+Racquets,Jeu De Paume
+DoublesOlympic,Jeu De Paume
+Wrestling,Tug-Of-War
+HeavyweightGrecoRomanOlympic,Tug-Of-War
+HeavyweightFreestyleOlympic,Tug-Of-War
+TugOfWar,Boxing
+TugOfWarOlympic,Boxing
+100metresOlympic,Rugby (Rugby)
+400metresOlympic,Rugby (Rugby)
+Weightlifting,Tug-Of-War
+UnlimitedTwoHandsOlympic,Tug-Of-War
+MarathonIntercalated,Athletics
+ShotPutIntercalated,Athletics
+DiscusThrowIntercalated,Athletics
+DiscusThrowGreekStyleIntercalated,Athletics
+PentathlonAncientIntercalated,Athletics
+Weightlifting,Athletics
+UnlimitedTwoHandsIntercalated,Athletics
+DrivingContestOlympicnonmedal,Golf
+PuttingContestOlympicnonmedal,Golf
+56poundWeightThrowOlympic,Tug-Of-War
+ShotPutOlympic,Athletics
+ShotPutHandicapOlympicnonmedal,Athletics
+TugOfWar,Athletics
+TugOfWarOlympic,Athletics
+LightweightFreestyleOlympic,Tug-Of-War
+HighJumpOlympicnonmedal,Athletics
+HighJumpHandicapOlympicnonmedal,Athletics
+AllAroundDumbbellContestOlympic,Tug-Of-War
+56poundWeightThrowOlympic,Athletics
+56poundWeightThrowOlympicnonmedal,Athletics
+DiscusThrowOlympic,Athletics
+DiscusThrowOlympicnonmedal,Athletics
+HammerThrowOlympic,Athletics
+DiscusThrowHandicapOlympicnonmedal,Athletics
+HammerThrowHandicapOlympicnonmedal,Athletics
+JavelinThrowOlympic,Athletics
+JavelinThrowBothHandsOlympic,Athletics
+4100metresRelayOlympic,Athletics
+Hockey,Athletics
+HockeyOlympic,Athletics
+Athletics,Hockey
+3000metresSteeplechaseOlympic,Hockey
+LacrosseOlympicnonmedal,Lacrosse
+FoilIndividualOlympic,Fencing
+FoilTeamOlympic,Fencing
+peIndividualOlympic,Fencing
+peTeamOlympic,Fencing
+FoilTeamOlympic,Fencing
+peTeamOlympic,Fencing
+100metresFreestyleOlympic,Swimming (Aquatics)
+500metresFreestyleOlympic,Swimming (Aquatics)
+SabreIndividualThreeHitsOlympic,Fencing
+SabreMastersIndividualOlympic,Fencing
+ModernPentathlon,Fencing
+FoilIndividualOpenOlympicnonmedal,Fencing
+400metresFreestyleOlympic,Swimming (Aquatics)
+WaterPoloAquatics,Swimming (Aquatics)
+WaterPoloOlympic,Swimming (Aquatics)
+WaterPoloAquatics,Fencing
+WaterPoloOlympic,Fencing
+Hockey,Fencing
+HockeyOlympic,Fencing
+IceHockeyOlympic,Ice Hockey (Ice Hockey)
+FoilMastersIndividualOlympic,Fencing
+peMastersIndividualOlympic,Fencing
+peMastersandAmateursIndividualOlympic,Fencing
+25kilometresOlympic,Fencing
+LiteratureOpenOlympic,Art Competitions
+FreePistol50yardsOlympic,Shooting
+SmallBoreRifle50and100yardsTeamOlympic,Shooting
+Athletics,Fencing
+100metresProfessionalsOlympicnonmedal,Fencing
+400metresProfessionalsOlympicnonmedal,Fencing
+110metresHurdlesProfessionalsOlympicnonmedal,Fencing
+HighJumpProfessionalsOlympicnonmedal,Fencing
+LongJumpProfessionalsOlympicnonmedal,Fencing
+ShotPutProfessionalsOlympicnonmedal,Fencing
+100metresProfessionalsHandicapOlympicnonmedal,Fencing
+400metresProfessionalsHandicapOlympicnonmedal,Fencing
+HighJumpProfessionalsHandicapOlympicnonmedal,Fencing
+LongJumpProfessionalsHandicapOlympicnonmedal,Fencing
+ShotPutProfessionalsHandicapOlympicnonmedal,Fencing
+Rowing,Fencing
+EightsOlympic,Fencing
+PaintingPaintingsOpenOlympic,Art Competitions
+Shooting,Fencing
+DuelingPistolAuCommandement25metresIntercalated,Fencing
+DuelingPistol30metresTeamOlympic,Fencing
+SwimmingAquatics,Fencing
+100metresFreestyleOlympic,Fencing
+FootballIntercalated,Football (Football)
+Fencing,Fencing
+TrapTeamOlympic,Shooting
+ThreePersonKeelboatOpenOlympic,Sailing
+Fencing,Modern Pentathlon
+peTeamOlympic,Modern Pentathlon
+PaintingDrawingsAndWaterColorsOpenOlympic,Art Competitions
+PaintingGraphicArtsOpenOlympic,Art Competitions
+PaintingAppliedArtsOpenOlympic,Art Competitions
+ArtCompetitions,Fencing
+PaintingGraphicArtsOpenOlympic,Fencing
+SabreIndividualOlympic,Modern Pentathlon
+FoilIndividualBoysOlympicnonmedal,Fencing
+SingleSticksIndividualOlympic,Fencing
+200metresOlympic,Athletics
+FootballOlympic,Football (Football)
+PlatformOlympic,Diving (Aquatics)
+SynchronizedPlatformOlympic,Diving (Aquatics)
+PlatformOlympic,Diving (Aquatics)
+SynchronizedPlatformOlympic,Diving (Aquatics)
+Athletics,Football (Football)
+110metresHurdlesOlympic,Football (Football)
+BandyOlympicnonmedal,Bandy
+4400metresRelayOlympic,Athletics
+120yardsHurdlesOlympicnonmedal,Football (Football)
+440yardsBoysOlympicnonmedal,Football (Football)
+IndividualAllAroundOlympic,Artistic Gymnastics (Gymnastics)
+FloorExerciseOlympic,Artistic Gymnastics (Gymnastics)
+HorseVaultOlympic,Artistic Gymnastics (Gymnastics)
+UnevenBarsOlympic,Artistic Gymnastics (Gymnastics)
+BalanceBeamOlympic,Artistic Gymnastics (Gymnastics)
+TeamAllAroundOlympic,Artistic Gymnastics (Gymnastics)
+IndividualOlympic,Rhythmic Gymnastics (Gymnastics)
+TeamPortableApparatusOlympic,Artistic Gymnastics (Gymnastics)
+GroupOlympic,Rhythmic Gymnastics (Gymnastics)
+IndividualAllAroundOlympic,Artistic Gymnastics (Gymnastics)
+TeamAllAroundOlympic,Artistic Gymnastics (Gymnastics)
+FloorExerciseOlympic,Artistic Gymnastics (Gymnastics)
+HorseVaultOlympic,Artistic Gymnastics (Gymnastics)
+ParallelBarsOlympic,Artistic Gymnastics (Gymnastics)
+HorizontalBarOlympic,Artistic Gymnastics (Gymnastics)
+RingsOlympic,Artistic Gymnastics (Gymnastics)
+PommelledHorseOlympic,Artistic Gymnastics (Gymnastics)
+PoleVaultOlympic,Athletics
+IndividualAllAroundFieldSportsOlympic,Artistic Gymnastics (Gymnastics)
+IndividualAllAroundApparatusWorkOlympic,Artistic Gymnastics (Gymnastics)
+TeamAllAroundSwedishSystemOlympic,Artistic Gymnastics (Gymnastics)
+FeatherweightOlympic,Weightlifting
+TeamAllAroundFreeSystemOlympic,Artistic Gymnastics (Gymnastics)
+TeamAllAroundIntercalated,Artistic Gymnastics (Gymnastics)
+RopeClimbingOlympic,Artistic Gymnastics (Gymnastics)
+SideHorseOlympic,Artistic Gymnastics (Gymnastics)
+6metresOpenOlympic,Sailing
+ArtisticGymnasticsGymnastics,Football (Football)
+TeamAllAroundFreeSystemOlympic,Football (Football)
+ArchitectureOpenOlympicnonmedal,Art Competitions
+FreeRifleThreePositions300metresOlympic,Shooting
+FreeRifleThreePositions300metresTeamOlympic,Shooting
+MilitaryRifleProne300metresTeamOlympic,Shooting
+MilitaryRifleProne600metresOlympic,Shooting
+MilitaryRifleProne600metresTeamOlympic,Shooting
+MilitaryRifleStanding300metresOlympic,Shooting
+MilitaryRifleStanding300metresTeamOlympic,Shooting
+MilitaryRifleProne300and600metresTeamOlympic,Shooting
+RunningTargetSingleShotTeamOlympic,Shooting
+RunningTargetDoubleShotTeamOlympic,Shooting
+RunningTargetSingleShotOlympic,Shooting
+RunningTargetDoubleShotOlympic,Shooting
+26thFederalFestivalSocietyandAssociationContestsNonSimultaneousNationalChampionshipsOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+IndividualAllAroundIntercalated,Artistic Gymnastics (Gymnastics)
+IndividualAllAround5EventsIntercalated,Artistic Gymnastics (Gymnastics)
+FestivalforSocietiesoftheSeineArtisticIndividualOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+FestivalforSocietiesoftheSeineIndividual2Olympicnonmedal,Artistic Gymnastics (Gymnastics)
+FestivalforSocietiesoftheSeineAdvancedOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+LightweightGrecoRomanOlympic,Wrestling
+100metresIntercalated,Athletics
+HighJumpIntercalated,Athletics
+LongJumpIntercalated,Athletics
+ParallelBarsTeamsOlympic,Artistic Gymnastics (Gymnastics)
+HorizontalBarTeamsOlympic,Artistic Gymnastics (Gymnastics)
+Athletics,Artistic Gymnastics (Gymnastics)
+HighJumpOlympic,Artistic Gymnastics (Gymnastics)
+ShotPutOlympic,Artistic Gymnastics (Gymnastics)
+100metresOlympic,Artistic Gymnastics (Gymnastics)
+PoleVaultOlympic,Artistic Gymnastics (Gymnastics)
+LongJumpOlympic,Artistic Gymnastics (Gymnastics)
+TripleJumpOlympic,Artistic Gymnastics (Gymnastics)
+ArtisticGymnasticsGymnastics,Athletics
+RopeClimbingOlympic,Athletics
+110metresHurdlesIntercalated,Athletics
+PoleVaultIntercalated,Athletics
+StandingLongJumpIntercalated,Athletics
+IndividualAllAroundIntercalated,Athletics
+IndividualAllAround5EventsIntercalated,Athletics
+TeamAllAroundIntercalated,Athletics
+TugOfWarIntercalated,Athletics
+CyclingRoadCycling,Artistic Gymnastics (Gymnastics)
+RoadRaceIndividualOlympic,Artistic Gymnastics (Gymnastics)
+Shooting,Artistic Gymnastics (Gymnastics)
+MilitaryPistol25metresOlympic,Artistic Gymnastics (Gymnastics)
+MilitaryRifle200metresOlympic,Artistic Gymnastics (Gymnastics)
+TumblingOlympic,Artistic Gymnastics (Gymnastics)
+RopeClimbingIntercalated,Artistic Gymnastics (Gymnastics)
+DecathlonOlympic,Artistic Gymnastics (Gymnastics)
+ClubSwingingOlympic,Artistic Gymnastics (Gymnastics)
+PlainHighOlympic,Diving (Aquatics)
+ArtisticGymnasticsGymnastics,Diving (Aquatics)
+TeamAllAroundFreeSystemOlympic,Diving (Aquatics)
+StandingLongJumpOlympic,Athletics
+StandingLongJumpOlympic,Artistic Gymnastics (Gymnastics)
+JavelinThrowOlympic,Artistic Gymnastics (Gymnastics)
+StandingHighJumpIntercalated,Athletics
+TripleJumpIntercalated,Athletics
+400metresOlympic,Artistic Gymnastics (Gymnastics)
+DiscusThrowOlympic,Artistic Gymnastics (Gymnastics)
+TugOfWarIntercalated,Tug-Of-War
+JavelinThrowFreestyleIntercalated,Tug-Of-War
+Fencing,Artistic Gymnastics (Gymnastics)
+SabreIndividualOlympic,Artistic Gymnastics (Gymnastics)
+110metresHurdlesOlympic,Artistic Gymnastics (Gymnastics)
+PlatformIntercalated,Diving (Aquatics)
+TugOfWar,Diving (Aquatics)
+TugOfWarIntercalated,Diving (Aquatics)
+ArtisticGymnasticsGymnastics,Fencing
+TeamAllAroundOlympic,Fencing
+IndividualAllAround4EventsOlympic,Artistic Gymnastics (Gymnastics)
+IndividualAllAroundOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+HorseVaultOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+ParallelBarsOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+SideHorseOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+HandballOlympic,Handball
+Handball,Handball
+CombinedOlympic,Alpine Skiing (Skiing)
+CrossCountrySkiingSkiing,Alpine Skiing (Skiing)
+410kilometresRelayOlympic,Alpine Skiing (Skiing)
+HalfMiddleweightOlympic,Judo
+LightweightOlympic,Judo
+HeavyweightOlympic,Judo
+HalfHeavyweightOlympicnonmedal,Judo
+HalfHeavyweightOlympic,Judo
+LightweightOlympicnonmedal,Judo
+ExtraLightweightOlympic,Judo
+MiddleweightOlympic,Judo
+HalfMiddleweightOlympicnonmedal,Judo
+HalfLightweightOlympic,Judo
+HalfLightweightOlympicnonmedal,Judo
+ExtraLightweightOlympicnonmedal,Judo
+MiddleweightOlympicnonmedal,Judo
+HeavyweightFreestyleOlympic,Wrestling
+HeavyweightOlympicnonmedal,Judo
+LightweightOlympic,Judo
+HalfMiddleweightOlympic,Judo
+HalfLightweightOlympic,Judo
+OpenClassOlympic,Judo
+ExtraLightweightOlympic,Judo
+MiddleweightOlympic,Judo
+HalfHeavyweightOlympic,Judo
+HeavyweightOlympic,Judo
+WelterweightGrecoRomanOlympic,Wrestling
+WelterweightFreestyleOlympic,Wrestling
+Shooting,Modern Pentathlon
+RapidFirePistol25metresOlympic,Modern Pentathlon
+MilitarySkiPatrolOlympic,Military Ski Patrol (Skiing)
+SabreTeamOlympic,Modern Pentathlon
+IndividualOlympic,Nordic Combined (Skiing)
+peIndividualOlympic,Modern Pentathlon
+Athletics,Modern Pentathlon
+PoleVaultOlympic,Modern Pentathlon
+SwimmingAquatics,Modern Pentathlon
+200metresBreaststrokeOlympic,Modern Pentathlon
+400metresBreaststrokeOlympic,Modern Pentathlon
+RapidFirePistol25metresOlympic,Shooting
+ModernPentathlon,Equestrian Jumping (Equestrian)
+DoubleScullsOlympic,Rowing
+CoxlessPairsOlympic,Rowing
+LightweightDoubleScullsOlympic,Rowing
+CoxedFoursOlympic,Rowing
+CoxlessPairsOlympic,Rowing
+CoxlessFoursOlympic,Rowing
+CoxedPairsOlympic,Rowing
+QuadrupleScullsOlympic,Rowing
+SingleScullsOlympic,Rowing
+DoubleScullsOlympic,Rowing
+LightweightCoxlessFoursOlympic,Rowing
+LightweightDoubleScullsOlympic,Rowing
+CoxedFoursOlympic,Rowing
+EightsOlympic,Rowing
+CoxlessFoursOlympic,Rowing
+QuadrupleScullsOlympic,Rowing
+CoxedFoursOutriggersOlympic,Rowing
+CoxlessFoursBoysOlympicnonmedal,Rowing
+EightsBoysOlympicnonmedal,Rowing
+Rowing,Boxing
+EightsOlympic,Boxing
+CoxlessPairsBoysOlympicnonmedal,Rowing
+LiteratureLyricWorksOpenOlympic,Art Competitions
+WaterPoloOlympic,Water Polo (Aquatics)
+WaterPoloAquatics,Rowing
+WaterPoloOlympic,Rowing
+CoxedQuadrupleScullsOlympic,Rowing
+CoxedFoursInriggersOlympic,Rowing
+SavateOlympicnonmedal,Savate
+SingleScullsAssociationOlympicnonmedal,Rowing
+200metresBreaststrokeOlympic,Swimming (Aquatics)
+SculpturingMedalsAndReliefsOpenOlympic,Art Competitions
+SculpturingStatuesOpenOlympic,Art Competitions
+SculpturingUnknownEventOpenOlympic,Art Competitions
+ArtCompetitions,Rowing
+PaintingGraphicArtsOpenOlympic,Rowing
+CoxlessFoursIntermediateOlympicnonmedal,Rowing
+CoxlessFoursOlympicnonmedal,Rowing
+CoxlessPairsIntermediateOlympicnonmedal,Rowing
+TwoPersonKeelboatOpenOlympic,Sailing
+DoubleScullsIntermediateOlympicnonmedal,Rowing
+EightsIntermediateOlympicnonmedal,Rowing
+AirRifle10metresOlympic,Shooting
+TrapOpenOlympic,Shooting
+TrapOlympic,Shooting
+DoubleTrapOlympic,Shooting
+AirPistol10metresOlympic,Shooting
+SportingPistol25metresOlympic,Shooting
+FreePistol50metresOpenOlympic,Shooting
+SmallBoreRifleThreePositions50metresOlympic,Shooting
+FreePistol50metresOlympic,Shooting
+SmallBoreRifleProne50metresOlympic,Shooting
+SmallBoreRifleThreePositions50metresOlympic,Shooting
+RapidFirePistol25metresOpenOlympic,Shooting
+SmallBoreRifleThreePositions50metresOpenOlympic,Shooting
+SkeetOlympic,Shooting
+RunningTarget50metresOpenOlympic,Shooting
+SkeetOpenOlympic,Shooting
+AirRifle10metresOlympic,Shooting
+AirPistol10metresOlympic,Shooting
+DoubleTrapOlympic,Shooting
+TrapOlympic,Shooting
+RunningTargetSingleandDoubleShotOlympic,Shooting
+SmallBoreRifleProne50and100yardsOlympic,Shooting
+SmallBoreRifleDisappearingTarget25yardsOlympic,Shooting
+SmallBoreRifleMovingTarget25yardsOlympic,Shooting
+RunningTarget50metresOlympic,Shooting
+RunningTarget10metresOlympic,Shooting
+100metresFreestyleIntercalated,Swimming (Aquatics)
+400metresFreestyleIntercalated,Swimming (Aquatics)
+1mileFreestyleIntercalated,Swimming (Aquatics)
+4250metresFreestyleRelayIntercalated,Swimming (Aquatics)
+FreePistol50metresOlympic,Modern Pentathlon
+DuelingPistol30metresOlympic,Modern Pentathlon
+MilitaryRifleThreePositions300metresOlympic,Shooting
+MilitaryRifleAnyPosition600metresOlympic,Shooting
+DuelingPistol30metresOlympic,Shooting
+FreePistol50metresIntercalated,Shooting
+MilitaryRevolver18731874GrasModel20metresIntercalated,Shooting
+MilitaryRevolver20metresIntercalated,Shooting
+DuelingPistolAuVis20metresIntercalated,Shooting
+DuelingPistolAuCommandement25metresIntercalated,Shooting
+FreeRifleAnyPosition300metresIntercalated,Shooting
+MilitaryRifle18731874GrasModelKneelingOrStanding200metresIntercalated,Shooting
+MilitaryRifleKneelingOrStanding300metresIntercalated,Shooting
+FreePistol50metresTeamOlympic,Shooting
+FreeRifleProne600metresOlympic,Shooting
+FreeRifle400600and800metresTeamOlympic,Shooting
+SmallBoreRifleStanding50metresOlympic,Shooting
+SmalBoreRifleStanding50metresTeamOlympic,Shooting
+MilitaryPistolTeamOlympic,Shooting
+FreeRifleKneeling300metresOlympic,Shooting
+FreeRifleProne300metresOlympic,Shooting
+FreeRifleStanding300metresOlympic,Shooting
+FreePistol50yardsTeamOlympic,Shooting
+MilitaryPistol30metresOlympic,Shooting
+FreeRifle1000yardsOlympic,Shooting
+MilitaryRifle2005006008009001000yardsTeamOlympic,Shooting
+SkeetOlympic,Shooting
+FreeRifleThreePositions300metresOpenOlympic,Shooting
+MilitaryRifleProne300metresOlympic,Shooting
+MilitaryRifle200400500and600metresTeamOlympic,Shooting
+SmallBoreRifleProne50metresTeamOlympic,Shooting
+SmallBoreRifleAnyPosition50metresOlympic,Shooting
+SmallBoreRifleDisappearingTarget25metresOlympic,Shooting
+Shooting,Athletics
+FreeRifleAnyPosition300metresOlympic,Athletics
+MilitaryRifle200metresOlympic,Athletics
+UnlimitedOneHandOlympic,Athletics
+UnlimitedTwoHandsOlympic,Athletics
+RapidFirePistol25metresOlympic,Fencing
+MilitarySkiPatrolOlympicnonmedal,Military Ski Patrol (Skiing)
+SkeletonOlympic,Skeleton (Bobsleigh)
+FreePistol25metresIntercalated,Shooting
+FreeRifleThreePositions300metresTeamIntercalated,Shooting
+TrapSingleShot16metresIntercalated,Shooting
+TrapDoubleShot14metresIntercalated,Shooting
+DuelingPistol30metresTeamOlympic,Shooting
+TrapOlympic,Fencing
+26thFederalFestivalSocietyandAssociationContestsNonSimultaneousShootingChampionshipsHonoraryMembersandAssociatesOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+FreePistol50metresTeamOlympic,Modern Pentathlon
+DuelingPistol30metresTeamOlympic,Modern Pentathlon
+MilitaryPistol25metresOlympic,Shooting
+MuzzleLoadingPistol25metresOlympic,Shooting
+FreeRifleAnyPosition300metresOlympic,Shooting
+MilitaryRifle200metresOlympic,Shooting
+SmallBoreRifleDisappearingTarget25metresTeamOlympic,Shooting
+FreePistol30metresOlympic,Shooting
+17ManNavalRowingBoatsIntercalated,Rowing
+TeamOlympic,Artistic Swimming (Aquatics)
+ArchitectureFurtherEntriesOpenOlympic,Art Competitions
+Fencing,Shooting
+SabreIndividualOlympic,Shooting
+RapidFirePistol25metresOlympic,Athletics
+SmallBoreRifleProne50metresOlympic,Athletics
+FreePistol50yardsOlympic,Fencing
+FreePistol50yardsTeamOlympic,Fencing
+SmallBoreRifle50and100yardsTeamOlympic,Fencing
+SmallBoreRifleDisappearingTarget25yardsOlympic,Fencing
+SmallBoreRifleMovingTarget25yardsOlympic,Fencing
+FreePistol50metresOlympic,Fencing
+FreePistol50metresTeamOlympic,Fencing
+DuelingPistol30metresOlympic,Fencing
+SmallBoreRifleAnyPosition50metresOlympic,Fencing
+SmallBoreRifleProne50metresTeamOlympic,Fencing
+SmallBoreRifleDisappearingTarget25metresOlympic,Fencing
+SmallBoreRifleDisappearingTarget25metresTeamOlympic,Fencing
+ArtCompetitions,Shooting
+SculpturingOpenOlympic,Shooting
+100metresBackstrokeOlympic,Swimming (Aquatics)
+SoloOlympic,Artistic Swimming (Aquatics)
+DuetOlympic,Artistic Swimming (Aquatics)
+50metresFreestyleOlympic,Swimming (Aquatics)
+200metresFreestyleOlympic,Swimming (Aquatics)
+100metresBreaststrokeOlympic,Swimming (Aquatics)
+4200metresFreestyleRelayOlympic,Swimming (Aquatics)
+1500metresFreestyleOlympic,Swimming (Aquatics)
+100metresButterflyOlympic,Swimming (Aquatics)
+200metresButterflyOlympic,Swimming (Aquatics)
+200metresIndividualMedleyOlympic,Swimming (Aquatics)
+100metresBreaststrokeOlympic,Swimming (Aquatics)
+200metresBreaststrokeOlympic,Swimming (Aquatics)
+100metresFreestyleOlympic,Swimming (Aquatics)
+50metresFreestyleOlympic,Swimming (Aquatics)
+100metresButterflyOlympic,Swimming (Aquatics)
+4100metresMedleyRelayOlympic,Swimming (Aquatics)
+100metresBackstrokeOlympic,Swimming (Aquatics)
+4200metresFreestyleRelayOlympic,Swimming (Aquatics)
+4100metresMedleyRelayOlympic,Swimming (Aquatics)
+400metresIndividualMedleyOlympic,Swimming (Aquatics)
+400metresFreestyleOlympic,Swimming (Aquatics)
+800metresFreestyleOlympic,Swimming (Aquatics)
+4100metresFreestyleRelayOlympic,Swimming (Aquatics)
+200metresBackstrokeOlympic,Swimming (Aquatics)
+200metresFreestyleOlympic,Swimming (Aquatics)
+200metresButterflyOlympic,Swimming (Aquatics)
+200metresBackstrokeOlympic,Swimming (Aquatics)
+200metresIndividualMedleyOlympic,Swimming (Aquatics)
+400metresIndividualMedleyOlympic,Swimming (Aquatics)
+PlainHighOlympic,Diving (Aquatics)
+SwimmingAquatics,Diving (Aquatics)
+100metresFreestyleOlympic,Diving (Aquatics)
+300metresFreestyleOlympic,Diving (Aquatics)
+SynchronizedSpringboardOlympic,Diving (Aquatics)
+4100metresFreestyleRelayOlympic,Swimming (Aquatics)
+DivingAquatics,Boxing
+SpringboardOlympic,Boxing
+SwimmingAquatics,Boxing
+100metresFreestyleOlympic,Boxing
+400metresFreestyleOlympic,Boxing
+1500metresFreestyleOlympic,Boxing
+4200metresFreestyleRelayOlympic,Boxing
+SpringboardOlympic,Diving (Aquatics)
+1000metresFreestyleOlympic,Swimming (Aquatics)
+200metresObstacleCourseOlympic,Swimming (Aquatics)
+Wrestling,Diving (Aquatics)
+WelterweightFreestyleOlympic,Diving (Aquatics)
+400metresBreaststrokeOlympic,Swimming (Aquatics)
+1200metresFreestyleOlympic,Swimming (Aquatics)
+SwimmingAquatics,Water Polo (Aquatics)
+100metresFreestyleOlympic,Water Polo (Aquatics)
+400metresFreestyleOlympic,Water Polo (Aquatics)
+440yardsFreestyleOlympic,Swimming (Aquatics)
+880yardsFreestyleOlympic,Swimming (Aquatics)
+1mileFreestyleOlympic,Swimming (Aquatics)
+200metresFreestyleOlympic,Water Polo (Aquatics)
+1000metresFreestyleOlympic,Water Polo (Aquatics)
+4000metresFreestyleOlympic,Water Polo (Aquatics)
+4200metresFreestyleRelayOlympic,Diving (Aquatics)
+100metresFreestyleOlympic,Diving (Aquatics)
+100metresBackstrokeOlympic,Diving (Aquatics)
+SynchronizedSpringboardOlympic,Diving (Aquatics)
+Rowing,Swimming (Aquatics)
+SwimmingAquatics,Artistic Gymnastics (Gymnastics)
+100metresFreestyleOlympic,Artistic Gymnastics (Gymnastics)
+4200metresFreestyleRelayOlympic,Artistic Gymnastics (Gymnastics)
+200metresBreaststrokeOlympic,Artistic Gymnastics (Gymnastics)
+UnderwaterSwimmingOlympic,Swimming (Aquatics)
+Fencing,Athletics
+FoilIndividualOlympic,Athletics
+SabreIndividualOlympic,Athletics
+FreePistol30metresOlympic,Athletics
+MilitaryPistol25metresOlympic,Athletics
+MuzzleLoadingPistol25metresOlympic,Athletics
+SwimmingAquatics,Athletics
+100metresFreestyleOlympic,Athletics
+500metresFreestyleOlympic,Athletics
+1200metresFreestyleOlympic,Athletics
+4200metresFreestyleRelayOlympic,Water Polo (Aquatics)
+ModernPentathlon,Diving (Aquatics)
+IndividualOlympic,Diving (Aquatics)
+ArtCompetitions,Diving (Aquatics)
+ArchitectureDesignsForTownPlanningOpenOlympic,Diving (Aquatics)
+300metresFreestyleOlympic,Swimming (Aquatics)
+4000metresFreestyleOlympic,Swimming (Aquatics)
+200metresTeamSwimmingOlympic,Swimming (Aquatics)
+ParallelBarsOlympic,Athletics
+TeamAllAroundOlympic,Diving (Aquatics)
+4250metresFreestyleRelayIntercalated,Diving (Aquatics)
+50yardsFreestyleOlympic,Swimming (Aquatics)
+450yardsFreestyleRelayOlympic,Swimming (Aquatics)
+100yardsBackstrokeOlympic,Swimming (Aquatics)
+440yardsBreaststrokeOlympic,Swimming (Aquatics)
+50yardsFreestyleOlympic,Diving (Aquatics)
+100yardsFreestyleOlympic,Diving (Aquatics)
+440yardsFreestyleOlympic,Diving (Aquatics)
+450yardsFreestyleRelayOlympic,Diving (Aquatics)
+100yardsBackstrokeOlympic,Diving (Aquatics)
+440yardsBreaststrokeOlympic,Diving (Aquatics)
+100metresFreestyleIntercalated,Diving (Aquatics)
+400metresFreestyleIntercalated,Diving (Aquatics)
+1mileFreestyleIntercalated,Diving (Aquatics)
+100yardsFreestyleOlympic,Swimming (Aquatics)
+220yardsFreestyleOlympic,Swimming (Aquatics)
+200metresTeamSwimmingOlympic,Water Polo (Aquatics)
+100metresFreestyleForSailorsOlympic,Swimming (Aquatics)
+440yardsHandicapOlympicnonmedal,Swimming (Aquatics)
+400metresFreestyleOlympic,Diving (Aquatics)
+1500metresFreestyleOlympic,Diving (Aquatics)
+OlympicDistanceOlympic,Triathlon
+200metresBreaststrokeOlympic,Diving (Aquatics)
+WaterPoloOlympicnonmedal,Swimming (Aquatics)
+WaterPoloOlympicnonmedal,Water Polo (Aquatics)
+400metresFreestyleOlympic,Diving (Aquatics)
+4100metresFreestyleRelayOlympic,Diving (Aquatics)
+WaterPoloAquatics,Diving (Aquatics)
+WaterPoloOlympic,Diving (Aquatics)
+DivingAquatics,Athletics
+PlatformIntercalated,Athletics
+100metresFreestyleIntercalated,Athletics
+200metresBreaststrokeOlympic,Diving (Aquatics)
+1500metresFreestyleOlympic,Water Polo (Aquatics)
+100metresBackstrokeOlympic,Diving (Aquatics)
+IndividualOlympic,Modern Pentathlon
+PlungeForDistanceOlympic,Swimming (Aquatics)
+880yardsHandicapOlympicnonmedal,Swimming (Aquatics)
+220yardsHandicapOlympicnonmedal,Swimming (Aquatics)
+1mileHandicapOlympicnonmedal,Swimming (Aquatics)
+880yardsHandicapOlympicnonmedal,Diving (Aquatics)
+100yardsHandicapOlympicnonmedal,Swimming (Aquatics)
+BeachVolleyballOlympic,Beach Volleyball (Volleyball)
+BeachVolleyballOlympic,Beach Volleyball (Volleyball)
+VolleyballOlympic,Volleyball (Volleyball)
+VolleyballOlympic,Volleyball (Volleyball)
+100metresBackstrokeOlympic,Water Polo (Aquatics)
+200metresBreaststrokeOlympic,Water Polo (Aquatics)
+200metresBackstrokeOlympic,Water Polo (Aquatics)
+200metresObstacleCourseOlympic,Water Polo (Aquatics)
+WaterPoloAquatics,Football (Football)
+WaterPoloOlympic,Football (Football)
+FootballFootball,Swimming (Aquatics)
+FootballOlympic,Swimming (Aquatics)
+BantamweightOlympic,Weightlifting
+MiddleHeavyweightOlympic,Weightlifting
+LightweightOlympic,Weightlifting
+MiddleweightOlympic,Weightlifting
+LightHeavyweightOlympic,Weightlifting
+HeavyweightIIOlympic,Weightlifting
+HeavyweightIOlympic,Weightlifting
+HeavyweightOlympic,Weightlifting
+SuperHeavyweightOlympic,Weightlifting
+LongJumpOlympic,Athletics
+4100metresRelayOlympic,Athletics
+FlyweightOlympic,Weightlifting
+Wrestling,Weightlifting
+LightHeavyweightFreestyleOlympic,Weightlifting
+UnlimitedOneHandOlympic,Weightlifting
+RopeClimbing,Artistic Gymnastics (Gymnastics)
+LightHeavyweightFreestyleOlympic,Wrestling
+LightweightFreestyleOlympic,Wrestling
+20kilometresRaceWalkOlympic,Athletics
+FeatherweightGrecoRomanOlympic,Wrestling
+Athletics,Weightlifting
+4100metresRelayOlympic,Weightlifting
+UnlimitedTwoHandsOlympic,Weightlifting
+AllAroundDumbbellContestOlympic,Weightlifting
+FeatherweightFreestyleOlympic,Wrestling
+LightFlyweightFreestyleOlympic,Wrestling
+BantamweightFreestyleOlympic,Wrestling
+FlyweightFreestyleOlympic,Wrestling
+MiddleweightFreestyleOlympic,Wrestling
+BantamweightGrecoRomanOlympic,Wrestling
+HeavyweightFreestyleOlympic,Wrestling
+MiddleweightGrecoRomanOlympic,Wrestling
+SuperHeavyweightGrecoRomanOlympic,Wrestling
+SuperHeavyweightFreestyleOlympic,Wrestling
+HeavyweightGrecoRomanOlympic,Wrestling
+LightHeavyweightGrecoRomanOlympic,Wrestling
+FlyweightGrecoRomanOlympic,Wrestling
+MiddleweightBGrecoRomanOlympic,Wrestling
+MiddleweightAGrecoRomanOlympic,Wrestling
+LightFlyweightGrecoRomanOlympic,Wrestling
+UnlimitedOneHandIntercalated,Weightlifting
+UnlimitedTwoHandsIntercalated,Weightlifting
+HeavyweightGrecoRomanIntercalated,Weightlifting
+HighJumpIntercalated,Weightlifting
+StandingHighJumpIntercalated,Weightlifting
+PoleVaultIntercalated,Weightlifting
+LongJumpIntercalated,Weightlifting
+StandingLongJumpIntercalated,Weightlifting
+TripleJumpIntercalated,Weightlifting
+LightweightGrecoRomanIntercalated,Wrestling
+HeavyweightGrecoRomanIntercalated,Wrestling
+AllAroundGrecoRomanIntercalated,Wrestling
+MiddleweightGrecoRomanIntercalated,Wrestling
+UnlimitedClassGrecoRomanOlympic,Wrestling
+Glma,Wrestling
+GlmaOlympicnonmedal,Wrestling
+GlmaOlympicnonmedal,Glíma
+Athletics,Wrestling
+880yardsHandicapOlympicnonmedal,Wrestling
+Rowing,Wrestling
+DoubleScullsIntermediateOlympicnonmedal,Wrestling
+ShotPutHandicapOlympicnonmedal,Wrestling
+TwoPersonDinghyOlympic,Sailing
+WindsurferOlympic,Sailing
+OnePersonDinghyOlympic,Sailing
+MultihullOpenOlympic,Sailing
+ThreePersonKeelboatOlympic,Sailing
+TwoPersonDinghyOpenOlympic,Sailing
+55metresOpenOlympic,Sailing
+7metresOpenOlympic,Sailing
+TwoPersonHeavyweightDinghyOpenOlympic,Sailing
+WindsurferOlympic,Sailing
+OnePersonDinghyOlympic,Sailing
+OnePersonHeavyweightDinghyOlympic,Sailing
+WindsurferOpenOlympic,Sailing
+OpenOpenOlympic,Sailing
+12TonOpenOlympic,Sailing
+12metresOpenOlympic,Sailing
+40metresOpenOlympic,Sailing
+TwoPersonDinghyOlympic,Sailing
+10metresOpenOlympic,Sailing
+1TonOpenOlympic,Sailing
+MusicCompositionsForOrchestraOpenOlympic,Art Competitions
+TwoPersonKeelboatOlympic,Sailing
+30metresOpenOlympic,Sailing
+12footOpenOlympic,Sailing
+1020TonOpenOlympic,Sailing
+23TonOpenOlympic,Sailing
+SkiffOpenOlympic,Sailing
+0TonOpenOlympic,Sailing
+20TonOpenOlympic,Sailing
+65metresOpenOlympic,Sailing
+310TonOpenOlympic,Sailing
+WindsurferOlympicnonmedal,Sailing
+MultihullMixedOlympic,Sailing
+400metresHurdlesOlympic,Athletics
+200metresOlympic,Athletics
+800metresOlympic,Athletics
+1500metresOlympic,Athletics
+JavelinThrowOlympic,Athletics
+HeptathlonOlympic,Athletics
+3000metresSteeplechaseOlympic,Athletics
+5000metresOlympic,Athletics
+20kilometresRaceWalkOlympic,Athletics
+50kilometresRaceWalkOlympic,Athletics
+10000metresOlympic,Athletics
+HighJumpOlympic,Athletics
+100metresOlympic,Athletics
+DiscusThrowOlympic,Athletics
+100metresHurdlesOlympic,Athletics
+10000metresOlympic,Athletics
+MarathonOlympic,Athletics
+ShotPutOlympic,Athletics
+80metresHurdlesOlympic,Athletics
+HammerThrowOlympic,Athletics
+5000metresOlympic,Athletics
+10kilometresRaceWalkOlympic,Athletics
+400metresHurdlesOlympic,Athletics
+PentathlonOlympic,Athletics
+5milesOlympic,Athletics
+10milesRaceWalkOlympic,Athletics
+10kilometresRaceWalkOlympic,Athletics
+400metresIntercalated,Athletics
+800metresIntercalated,Athletics
+1500metresIntercalated,Athletics
+5milesIntercalated,Athletics
+Boxing,Athletics
+LightweightOlympic,Athletics
+PentathlonOlympic,Athletics
+100yardsHandicapOlympicnonmedal,Athletics
+120yardsHurdlesHandicapOlympicnonmedal,Athletics
+StandingHighJumpOlympic,Athletics
+3500metresRaceWalkOlympic,Athletics
+CrossCountryIndividualOlympic,Athletics
+3000metresRaceWalkOlympic,Athletics
+60metresOlympic,Athletics
+100metresHandicapOlympicnonmedal,Athletics
+Athletics,Athletics
+5000metresTeamOlympic,Athletics
+DiscusThrowBothHandsOlympic,Athletics
+DiscusThrowGreekStyleOlympic,Athletics
+2500metresSteeplechaseOlympic,Athletics
+2500metresSteeplechaseHandicapOlympicnonmedal,Athletics
+3200metresSteeplechaseOlympic,Athletics
+3000metresTeamOlympic,Athletics
+CrossCountryTeamOlympic,Athletics
+StandingTripleJumpOlympic,Athletics
+JavelinThrowFreestyleIntercalated,Athletics
+JavelinThrowFreestyleOlympic,Athletics
+Wrestling,Athletics
+LightHeavyweightGrecoRomanOlympic,Athletics
+1600metresMedleyRelayOlympic,Athletics
+1mileHandicapOlympicnonmedal,Athletics
+56poundWeightThrowHandicapOlympicnonmedal,Athletics
+PoleVaultHandicapOlympicnonmedal,Athletics
+HeavyweightOlympic,Athletics
+200metresHurdlesOlympic,Athletics
+4000metresSteeplechaseOlympic,Athletics
+1500metresHandicapOlympicnonmedal,Athletics
+440yardsHandicapOlympicnonmedal,Athletics
+880yardsHandicapOlympicnonmedal,Athletics
+HeavyweightOlympic,Weightlifting
+800metresHandicapOlympicnonmedal,Athletics
+Athletics,Swimming (Aquatics)
+ShotPutOlympic,Swimming (Aquatics)
+DiscusThrowOlympic,Swimming (Aquatics)
+3000metresSteeplechaseOlympic,Athletics
+ShotPutBothHandsOlympic,Athletics
+StoneThrowIntercalated,Athletics
+TeamAllAroundOlympic,Athletics
+20kilometresOlympic,Biathlon
+PentathlonOlympic,Artistic Gymnastics (Gymnastics)
+3milesTeamOlympic,Athletics
+RugbyRugby,Athletics
+RugbyOlympic,Athletics
+110metresHurdlesHandicapOlympicnonmedal,Athletics
+400metresHandicapOlympicnonmedal,Athletics
+4milesTeamOlympic,Athletics
+DoublesHandicapOlympicnonmedal,Athletics
+HeavyweightGrecoRomanOlympic,Athletics
+400metresHurdlesHandicapOlympicnonmedal,Athletics
+HeavyweightFreestyleOlympic,Athletics
+ShotPutOlympic,Wrestling
+DiscusThrowOlympic,Wrestling
+2590metresSteeplechaseOlympic,Athletics
+UnlimitedClassGrecoRomanOlympic,Athletics
+120yardsHurdlesOlympicnonmedal,Athletics
+LongJumpOlympicnonmedal,Athletics
+TripleJumpOlympicnonmedal,Athletics
+StandingTripleJumpOlympicnonmedal,Athletics
+StoneThrowOlympicnonmedal,Athletics
+AllAroundChampionshipOlympic,Athletics
+HammerThrowOlympicnonmedal,Athletics
+SkiJumpingSkiing,Cross Country Skiing (Skiing)
+LargeHillIndividualOlympic,Cross Country Skiing (Skiing)
+NordicCombinedSkiing,Cross Country Skiing (Skiing)
+IndividualOlympic,Cross Country Skiing (Skiing)
+IndividualAllAroundOlympic,Athletics
+HorseVaultOlympic,Athletics
+ParallelBarsTeamsOlympic,Athletics
+HorizontalBarOlympic,Athletics
+HorizontalBarTeamsOlympic,Athletics
+RingsOlympic,Athletics
+PommelledHorseOlympic,Athletics
+FootballFootball,Athletics
+FootballOlympic,Athletics
+BasketballBasketball,Athletics
+BasketballOlympic,Athletics
+1500metresRaceWalkIntercalated,Athletics
+100metresBackstrokeOlympic,Athletics
+200metresBreaststrokeOlympic,Athletics
+LongJumpHandicapOlympicnonmedal,Athletics
+LiteratureDramaticWorksOpenOlympic,Art Competitions
+Glma,Athletics
+GlmaOlympicnonmedal,Athletics
+410kilometresRelayOlympic,Cross Country Skiing (Skiing)
+6hourraceProfessionalsOlympicnonmedal,Athletics
+PoleVaultIntercalated,Artistic Gymnastics (Gymnastics)
+PairsMixedOlympic,Figure Skating (Skating)
+15kilometresOlympic,Cross Country Skiing (Skiing)
+30kilometresOlympic,Cross Country Skiing (Skiing)
+1mileOlympicnonmedal,Athletics
+ArtCompetitions,Athletics
+LiteratureEpicWorksOpenOlympic,Athletics
+MarathonIntercalated,Artistic Gymnastics (Gymnastics)
+StandingLongJumpIntercalated,Artistic Gymnastics (Gymnastics)
+DiscusThrowIntercalated,Artistic Gymnastics (Gymnastics)
+DiscusThrowGreekStyleIntercalated,Artistic Gymnastics (Gymnastics)
+PentathlonAncientIntercalated,Artistic Gymnastics (Gymnastics)
+MarathonOlympic,Artistic Gymnastics (Gymnastics)
+BaseballBaseballSoftball,Athletics
+BaseballOlympicnonmedal,Athletics
+440yardsOlympicnonmedal,Athletics
+880yardsOlympicnonmedal,Athletics
+100yardsOlympicnonmedal,Athletics
+2milesOlympicnonmedal,Athletics
+5milesBoysOlympicnonmedal,Athletics
+220yardsOlympicnonmedal,Athletics
+120yardsHurdlesBoysOlympicnonmedal,Athletics
+1mileBoysOlympicnonmedal,Athletics
+ShotPutOlympicnonmedal,Athletics
+SpecialScratchPoleVault2Olympicnonmedal,Athletics
+IndividualAllAroundFieldSportsOlympic,Athletics
+IndividualAllAroundApparatusWorkOlympic,Athletics
+60yardsHandicapOlympicnonmedal,Athletics
+1mileTeamHandicapOlympicnonmedal,Athletics
+2milesHandicapOlympicnonmedal,Athletics
+5milesOlympicnonmedal,Athletics
+220yardsHandicapOlympicnonmedal,Athletics
+100yardsBoysOlympicnonmedal,Athletics
+220yardsHurdlesOlympicnonmedal,Athletics
+PoleVaultBoysOlympicnonmedal,Athletics
+PoleVaultOlympicnonmedal,Athletics
+880yardsBoysOlympicnonmedal,Athletics
+HeavyweightGrecoRomanIntercalated,Athletics
+MiddleweightGrecoRomanIntercalated,Athletics
+3000metresRaceWalkIntercalated,Athletics
+UnlimitedOneHandIntercalated,Athletics
+SculpturingOpenOlympic,Art Competitions
+MilitaryRifleKneelingOrStanding300metresIntercalated,Athletics
+100metresFreestyleIntercalated,Artistic Gymnastics (Gymnastics)
+400metresFreestyleIntercalated,Artistic Gymnastics (Gymnastics)
+1mileFreestyleIntercalated,Artistic Gymnastics (Gymnastics)
+HeavyweightGrecoRomanIntercalated,Tug-Of-War
+MiddleweightGrecoRomanIntercalated,Tug-Of-War
+UnlimitedOneHandIntercalated,Tug-Of-War
+UnlimitedTwoHandsIntercalated,Tug-Of-War
+CyclingTrackCycling,Wrestling
+SprintIntercalated,Wrestling
+20kilometresIntercalated,Wrestling
+SinglesIntercalated,Tennis
+Tennis,Football (Football)
+SinglesIntercalated,Football (Football)
+DoublesIntercalated,Football (Football)
+26thFederalFestivalSocietyandAssociationContestsNonSimultaneousOlympicChampionshipsIndividualOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+DiscusThrowIntercalated,Tug-Of-War
+DiscusThrowGreekStyleIntercalated,Tug-Of-War
+Wrestling,Artistic Gymnastics (Gymnastics)
+LightweightGrecoRomanIntercalated,Artistic Gymnastics (Gymnastics)
+6ManNavalRowingBoatsIntercalated,Rowing
+100metresIntercalated,Artistic Gymnastics (Gymnastics)
+CyclingTrackCycling,Artistic Gymnastics (Gymnastics)
+TandemSprint2000metresIntercalated,Artistic Gymnastics (Gymnastics)
+CoxedFoursIntercalated,Fencing
+Rowing,Football (Football)
+6ManNavalRowingBoatsIntercalated,Football (Football)
+100metresIntercalated,Football (Football)
+Rowing,Artistic Gymnastics (Gymnastics)
+CoxedFoursIntercalated,Artistic Gymnastics (Gymnastics)
+Shooting,Rowing
+FreePistol25metresIntercalated,Rowing
+FreePistol50metresIntercalated,Rowing
+MilitaryRevolver18731874GrasModel20metresIntercalated,Rowing
+MilitaryRevolver20metresIntercalated,Rowing
+Rowing,Rowing
+HighJumpIntercalated,Tennis
+TwoManTeamsWithCestaOlympic,Basque pelota
+FestivalforSocietiesoftheSeineOlympicCompetitionIndividualOlympicnonmedal,Artistic Gymnastics (Gymnastics)
+CoxedFoursIntercalated,Football (Football)
+Fencing,Football (Football)
+FoilIndividualOlympic,Football (Football)
+SinglesOlympic,Luge
+SlalomOlympic,Alpine Skiing (Skiing)
+5kilometresOlympic,Cross Country Skiing (Skiing)
+10kilometresOlympic,Cross Country Skiing (Skiing)
+20kilometresOlympic,Cross Country Skiing (Skiing)
+SinglesOlympic,Figure Skating (Skating)
+35kilometresRelayOlympic,Cross Country Skiing (Skiing)
+75kilometresSprintOlympic,Biathlon
+15kilometresOlympic,Biathlon
+375kilometresRelayOlympic,Biathlon
+475kilometresRelayOlympic,Biathlon
+1500metresOlympic,Speed Skating (Skating)
+DownhillOlympic,Alpine Skiing (Skiing)
+GiantSlalomOlympic,Alpine Skiing (Skiing)
+30kilometresOlympic,Cross Country Skiing (Skiing)
+510kilometresPursuitOlympic,Cross Country Skiing (Skiing)
+45kilometresRelayOlympic,Cross Country Skiing (Skiing)
+15kilometresOlympic,Cross Country Skiing (Skiing)
+55kilometresPursuitOlympic,Cross Country Skiing (Skiing)
+1000metresOlympic,Speed Skating (Skating)
+3000metresRelayOlympic,Short Track Speed Skating (Skating)
+10kilometresPursuitOlympic,Biathlon
+46kilometresRelayOlympic,Biathlon
+IceDancingMixedOlympic,Figure Skating (Skating)
+500metresOlympic,Speed Skating (Skating)
+SuperGOlympic,Alpine Skiing (Skiing)
+CombinedOlympic,Alpine Skiing (Skiing)
+5000metresOlympic,Speed Skating (Skating)
+500metresOlympic,Short Track Speed Skating (Skating)
+500metresOlympicnonmedal,Short Track Speed Skating (Skating)
+1000metresOlympicnonmedal,Short Track Speed Skating (Skating)
+1500metresOlympicnonmedal,Short Track Speed Skating (Skating)
+3000mOlympicnonmedal,Short Track Speed Skating (Skating)
+1000metresOlympic,Short Track Speed Skating (Skating)
+MogulsOlympic,Freestyle Skiing (Skiing)
+CrossCountrySkiingSkiing,Biathlon
+5kilometresOlympic,Biathlon
+510kilometresPursuitOlympic,Biathlon
+AerialsOlympicnonmedal,Freestyle Skiing (Skiing)
+AerialsOlympic,Freestyle Skiing (Skiing)
+3000metresRelayOlympicnonmedal,Short Track Speed Skating (Skating)
+BalletOlympicnonmedal,Freestyle Skiing (Skiing)
+125kilometresMassStartOlympic,Biathlon
+IndividualOlympicnonmedal,Speed Skiing (Skiing)
+SprintOlympic,Cross Country Skiing (Skiing)
+SprintOlympic,Biathlon
+SkiCrossOlympic,Freestyle Skiing (Skiing)
+30kilometresOlympic,Biathlon
+MogulsOlympicnonmedal,Freestyle Skiing (Skiing)
+15kilometresSkiathlonOlympic,Cross Country Skiing (Skiing)
+IceDancingMixedOlympicnonmedal,Figure Skating (Skating)
+TeamSprintOlympic,Cross Country Skiing (Skiing)
+MassStartOlympic,Speed Skating (Skating)
+1500metresOlympic,Short Track Speed Skating (Skating)
+45kilometresRelayOlympic,Biathlon
+SinglesOlympic,Figure Skating (Skating)
+TeamOlympic,Nordic Combined (Skiing)
+10kilometresSprintOlympic,Biathlon
+475kilometresRelayOlympic,Biathlon
+GiantSlalomOlympic,Alpine Skiing (Skiing)
+SlalomOlympic,Alpine Skiing (Skiing)
+500metresOlympic,Speed Skating (Skating)
+1000metresOlympic,Speed Skating (Skating)
+DownhillOlympic,Alpine Skiing (Skiing)
+SuperGOlympic,Alpine Skiing (Skiing)
+LargeHillIndividualOlympic,Ski Jumping (Skiing)
+1500metresOlympic,Speed Skating (Skating)
+NormalHillIndividualOlympic,Ski Jumping (Skiing)
+LargeHillTeamOlympic,Ski Jumping (Skiing)
+500metresOlympicnonmedal,Short Track Speed Skating (Skating)
+1000metresOlympicnonmedal,Short Track Speed Skating (Skating)
+1500metresOlympicnonmedal,Short Track Speed Skating (Skating)
+5000metresRelayOlympicnonmedal,Short Track Speed Skating (Skating)
+3000mOlympicnonmedal,Short Track Speed Skating (Skating)
+5000metresRelayOlympic,Short Track Speed Skating (Skating)
+10kilometresOlympic,Cross Country Skiing (Skiing)
+1015kilometresPursuitOlympic,Cross Country Skiing (Skiing)
+Curling,Bobsleigh (Bobsleigh)
+CurlingOlympic,Bobsleigh (Bobsleigh)
+MogulsOlympic,Freestyle Skiing (Skiing)
+DoublesOpenOlympic,Luge
+1010kilometresPursuitOlympic,Cross Country Skiing (Skiing)
+SinglesOlympic,Luge
+Luge,Bobsleigh (Bobsleigh)
+SinglesOlympic,Bobsleigh (Bobsleigh)
+10kilometresOlympic,Biathlon
+30kilometresOlympic,Biathlon
+1015kilometresPursuitOlympic,Biathlon
+410kilometresRelayOlympic,Biathlon
+10000metresOlympic,Speed Skating (Skating)
+AllroundOlympic,Speed Skating (Skating)
+SprintOlympic,Cross Country Skiing (Skiing)
+30kilometresSkiathlonOlympic,Cross Country Skiing (Skiing)
+TeamSprintOlympic,Cross Country Skiing (Skiing)
+15kilometresOlympic,Biathlon
+MilitarySkiPatrolSkiing,Cross Country Skiing (Skiing)
+MilitarySkiPatrolOlympic,Cross Country Skiing (Skiing)
+AerialsOlympicnonmedal,Freestyle Skiing (Skiing)
+AerialsOlympic,Freestyle Skiing (Skiing)
+SkiJumpingSkiing,Alpine Skiing (Skiing)
+LargeHillIndividualOlympic,Alpine Skiing (Skiing)
+IceHockeyExhibitionOlympicnonmedal,Ice Hockey (Ice Hockey)
+18kilometresOlympic,Alpine Skiing (Skiing)
+NordicCombinedSkiing,Alpine Skiing (Skiing)
+IndividualOlympic,Alpine Skiing (Skiing)
+SkiJumpingSkiing,Nordic Combined (Skiing)
+LargeHillIndividualOlympic,Nordic Combined (Skiing)
+500metresOlympic,Short Track Speed Skating (Skating)
+1000metresOlympic,Short Track Speed Skating (Skating)
+MogulsOlympicnonmedal,Freestyle Skiing (Skiing)
+SkeletonBobsleigh,Bobsleigh (Bobsleigh)
+SkeletonOlympic,Bobsleigh (Bobsleigh)
+NordicCombinedSkiing,Military Ski Patrol (Skiing)
+IndividualOlympic,Military Ski Patrol (Skiing)
+SkiJumpingSkiing,Military Ski Patrol (Skiing)
+LargeHillIndividualOlympic,Military Ski Patrol (Skiing)
+125kilometresPursuitOlympic,Biathlon
+15kilometresMassStartOlympic,Biathlon
+26kilometresand275kilometresRelayMixedOlympic,Biathlon
+CrossCountrySkiingSkiing,Nordic Combined (Skiing)
+18kilometresOlympic,Nordic Combined (Skiing)
+TeamPursuit8lapsOlympic,Speed Skating (Skating)
+1500metresOlympic,Short Track Speed Skating (Skating)
+SpecialFiguresOlympic,Figure Skating (Skating)
+LargeHillTeamOlympic,Nordic Combined (Skiing)
+50kilometresOlympic,Alpine Skiing (Skiing)
+CrossCountrySkiingSkiing,Ice Hockey (Ice Hockey)
+50kilometresOlympic,Ice Hockey (Ice Hockey)
+SkiJumpingSkiing,Ice Hockey (Ice Hockey)
+LargeHillIndividualOlympic,Ice Hockey (Ice Hockey)
+MilitarySkiPatrolSkiing,Nordic Combined (Skiing)
+MilitarySkiPatrolOlympicnonmedal,Nordic Combined (Skiing)
+NormalHillIndividualOlympic,Nordic Combined (Skiing)
+SpeedSkatingSkating,Ice Hockey (Ice Hockey)
+500metresOlympic,Ice Hockey (Ice Hockey)
+1500metresOlympic,Ice Hockey (Ice Hockey)
+5000metresOlympic,Ice Hockey (Ice Hockey)
+AllroundOlympic,Ice Hockey (Ice Hockey)
+IceHockeyIceHockey,Bobsleigh (Bobsleigh)
+IceHockeyOlympic,Bobsleigh (Bobsleigh)
+IceHockeyIceHockey,Speed Skating (Skating)
+IceHockeyOlympic,Speed Skating (Skating)
+BobsleighBobsleigh,Alpine Skiing (Skiing)
+FourOlympic,Alpine Skiing (Skiing)
+TeamRelayMixedOlympic,Luge
+AlpineSkiingSkiing,Ski Jumping (Skiing)
+CombinedOlympic,Ski Jumping (Skiing)
+50kilometresOlympic,Biathlon
+MilitarySkiPatrolOlympicnonmedal,Cross Country Skiing (Skiing)
+15kilometresOlympic,Alpine Skiing (Skiing)
+BalletOlympicnonmedal,Freestyle Skiing (Skiing)
+SprintOlympic,Nordic Combined (Skiing)
+NormalHill10kmIndividualOlympic,Nordic Combined (Skiing)
+LargeHill10kmIndividualOlympic,Nordic Combined (Skiing)
+CrossCountrySkiingSkiing,Military Ski Patrol (Skiing)
+50kilometresOlympic,Military Ski Patrol (Skiing)
+30kilometresOlympic,Alpine Skiing (Skiing)
+SculpturingMedalsOpenOlympic,Art Competitions
+KayakSingles200metresOlympic,Canoe Sprint (Canoeing)
+KayakSingles200metresOlympic,Canoe Sprint (Canoeing)
+KayakDoubles200metresOlympic,Canoe Sprint (Canoeing)
+KayakFours500metresOlympic,Canoe Sprint (Canoeing)
+OmniumOlympic,Cycling Track (Cycling)
+BMXOlympic,Cycling BMX Racing (Cycling)
+IndividualOlympic,Trampolining (Gymnastics)
+IndividualOlympic,Trampolining (Gymnastics)
+TeamOlympic,Cross Country Skiing (Skiing)
+LightweightFreestyleOlympic,Wrestling
+WindsurferOlympicnonmedal,Sailing
+TrapTeamMixedOlympic,Shooting
+AirPistol10metresTeamMixedOlympic,Shooting
+MarathonSwimmingAquatics,Swimming (Aquatics)
+10kilometresOpenWaterOlympic,Swimming (Aquatics)
+10kilometresOpenWaterOlympic,Marathon Swimming (Aquatics)
+10kilometresOpenWaterOlympic,Swimming (Aquatics)
+10kilometresOpenWaterOlympic,Marathon Swimming (Aquatics)
+FeatherweightOlympic,Taekwondo
+FlyweightOlympic,Taekwondo
+FlyweightOlympic,Taekwondo
+FeatherweightOlympic,Taekwondo
+WelterweightOlympic,Taekwondo
+FinweightOlympicnonmedal,Taekwondo
+WelterweightOlympic,Taekwondo
+HeavyweightOlympic,Taekwondo
+HeavyweightOlympic,Taekwondo
+LightweightOlympicnonmedal,Taekwondo
+WelterweightOlympicnonmedal,Taekwondo
+BantamweightOlympicnonmedal,Taekwondo
+MiddleweightOlympicnonmedal,Taekwondo
+HeavyweightOlympicnonmedal,Taekwondo
+OlympicDistanceOlympic,Triathlon
+Athletics,Triathlon
+10000metresOlympic,Triathlon
+WaterPoloOlympic,Water Polo (Aquatics)
+LightHeavyweightOlympic,Weightlifting
+LightweightOlympic,Weightlifting
+MiddleweightOlympic,Weightlifting
+SuperHeavyweightOlympic,Weightlifting
+FeatherweightOlympic,Weightlifting
+FlyweightOlympic,Weightlifting
+AlpineSkiingSkiing,Cross Country Skiing (Skiing)
+CombinedOlympic,Cross Country Skiing (Skiing)
+NordicCombinedSkiing,Ski Jumping (Skiing)
+IndividualOlympic,Ski Jumping (Skiing)
+FootballFootball,Ice Hockey (Ice Hockey)
+FootballOlympic,Ice Hockey (Ice Hockey)
+SkiCrossOlympic,Freestyle Skiing (Skiing)
+10000metresOlympic,Ice Hockey (Ice Hockey)
+AlpineSkiingSkiing,Bobsleigh (Bobsleigh)
+GiantSlalomOlympic,Bobsleigh (Bobsleigh)
+50kilometresOlympic,Nordic Combined (Skiing)
+SkijoringSkiing,Ice Hockey (Ice Hockey)
+SkiJoringOlympicnonmedal,Ice Hockey (Ice Hockey)
+TwoOlympic,Alpine Skiing (Skiing)
+SprintOlympic,Biathlon
+GiantSlalomOlympic,Snowboarding (Skiing)
+ParallelGiantSlalomOlympic,Snowboarding (Skiing)
+GiantSlalomOlympic,Snowboarding (Skiing)
+CrossOlympic,Snowboarding (Skiing)
+ParallelSlalomOlympic,Snowboarding (Skiing)
+HalfpipeOlympic,Snowboarding (Skiing)
+HalfpipeOlympic,Snowboarding (Skiing)
+CrossOlympic,Snowboarding (Skiing)
+ParallelGiantSlalomOlympic,Snowboarding (Skiing)
+CurlingOlympic,Curling
+CurlingOlympicnonmedal,Curling
+CurlingOlympic,Curling
+CurlingOlympicnonmedal,Curling
+IceHockeyOlympic,Ice Hockey (Ice Hockey)
+18footOpenOlympic,Sailing
+SlopestyleOlympic,Snowboarding (Skiing)
+1010kilometresPursuitOlympic,Biathlon
+TeamMixedOlympic,Figure Skating (Skating)
+ParallelSlalomOlympic,Snowboarding (Skiing)
+SkeletonOlympic,Skeleton (Bobsleigh)
+TeamMixedOlympic,Alpine Skiing (Skiing)
+FourOpenOlympic,Bobsleigh (Bobsleigh)
+HighJumpOlympicnonmedal,Swimming (Aquatics)
+StandingHighJumpOlympic,Swimming (Aquatics)
+PoleVaultOlympicnonmedal,Swimming (Aquatics)
+HighJumpHandicapOlympicnonmedal,Swimming (Aquatics)
+PoleVaultHandicapOlympicnonmedal,Swimming (Aquatics)
+PlungeForDistanceOlympic,Water Polo (Aquatics)
+220yardsHandicapOlympicnonmedal,Water Polo (Aquatics)
+1mileHandicapOlympicnonmedal,Water Polo (Aquatics)
+SinglesOlympic,Roque
+UnknownEventOlympic,Shooting
+4100metresMedleyRelayMixedOlympic,Swimming (Aquatics)
+1500metresFreestyleOlympic,Swimming (Aquatics)
+SkiffOlympic,Sailing
+SkiffOlympic,Sailing
+AirRifle10metresTeamMixedOlympic,Shooting
+CanadianSingles200metresOlympic,Canoe Sprint (Canoeing)
+SabreIndividualOlympic,Fencing
+SabreTeamOlympic,Fencing
+RelayMixedOlympic,Triathlon
+TeamPursuitOlympic,Cycling Track (Cycling)
+KeirinOlympic,Cycling Road (Cycling)
+DoublesMixedOlympic,Table Tennis
+FlyweightFreestyleOlympic,Wrestling
+FeatherweightFreestyleOlympic,Wrestling
+MiddleweightFreestyleOlympic,Wrestling
+MassStartOlympic,Speed Skating (Skating)
+NormalHillTeamMixedOlympic,Ski Jumping (Skiing)
+SlopestyleOlympic,Snowboarding (Skiing)
+2000metresRelayMixedOlympic,Short Track Speed Skating (Skating)
+BigAirOlympic,Snowboarding (Skiing)
+TeamCrossMixedOlympic,Snowboarding (Skiing)
+IndividualGirlsYOG,Archery
+TeamMixedYouthYOG,Archery
+50metresFreestyleGirlsYOG,Swimming (Aquatics)
+4100metresFreestyleRelayMixedYouthYOG,Swimming (Aquatics)
+100metresFreestyleGirlsYOG,Swimming (Aquatics)
+4100metresMedleyRelayMixedYouthYOG,Swimming (Aquatics)
+200metresFreestyleGirlsYOG,Swimming (Aquatics)
+4100metresFreestyleRelayGirlsYOG,Swimming (Aquatics)
+4100metresMedleyRelayGirlsYOG,Swimming (Aquatics)
+TeamMixedOlympic,Judo
+BMXOlympic,Cycling BMX Racing (Cycling)
+TeamSprintOlympic,Cycling Road (Cycling)
+CyclingMountainBikeCycling,Cycling Track (Cycling)
+CrossCountryOlympic,Cycling Track (Cycling)
+4400metresRelayMixedOlympic,Athletics
+50metresFreestyleBoysYOG,Swimming (Aquatics)
+100metresFreestyleBoysYOG,Swimming (Aquatics)
+200metresFreestyleBoysYOG,Swimming (Aquatics)
+100metresBackstrokeBoysYOG,Swimming (Aquatics)
+200metresIndividualMedleyBoysYOG,Swimming (Aquatics)
+50metresBackstrokeGirlsYOG,Swimming (Aquatics)
+100metresBackstrokeGirlsYOG,Swimming (Aquatics)
+200metresBreaststrokeGirlsYOG,Swimming (Aquatics)
+200metresIndividualMedleyGirlsYOG,Swimming (Aquatics)
+400metresFreestyleGirlsYOG,Swimming (Aquatics)
+200metresButterflyGirlsYOG,Swimming (Aquatics)
+100metresButterflyBoysYOG,Swimming (Aquatics)
+200metresButterflyBoysYOG,Swimming (Aquatics)
+SpringboardGirlsYOG,Diving (Aquatics)
+PlatformGirlsYOG,Diving (Aquatics)
+SpringboardBoysYOG,Diving (Aquatics)
+CanadianSinglesSlalomOlympic,Canoe Slalom (Canoeing)
+50metresBreaststrokeGirlsYOG,Swimming (Aquatics)
+100metresBreaststrokeGirlsYOG,Swimming (Aquatics)
+100metresButterflyGirlsYOG,Swimming (Aquatics)
+LightHeavyweightFreestyleOlympic,Wrestling
+TeamSprintOlympic,Biathlon
+10kilometresOlympic,Biathlon
+MonobobOlympic,Bobsleigh (Bobsleigh)
+MixedDoublesMixedOlympic,Curling
+TeamAerialsMixedOlympic,Freestyle Skiing (Skiing)
+BigAirOlympic,Snowboarding (Skiing)
+ShortTrackSpeedSkatingSkating,Speed Skating (Skating)
+3000metresRelayOlympic,Speed Skating (Skating)
+10000metresRaceWalkBoysYOG,Athletics
+FoilIndividualGirlsYOG,Fencing
+MixedWeaponTeamMixedYouthYOG,Fencing
+100metresHurdlesGirlsYOG,Athletics
+AirRifle10metresGirlsYOG,Shooting
+50metresBreaststrokeBoysYOG,Swimming (Aquatics)
+100metresBreaststrokeBoysYOG,Swimming (Aquatics)
+LongJumpGirlsYOG,Athletics
+200metresBoysYOG,Athletics
+MedleyRelayBoysYOG,Athletics
+100metresBoysYOG,Athletics
+50metresButterflyGirlsYOG,Swimming (Aquatics)
+KayakSinglesHeadtoHeadGirlsYOG,Canoe Sprint (Canoeing)
+KayakSinglesObstacleSlalomGirlsYOG,Canoe Sprint (Canoeing)
+GroupGirlsYOG,Rhythmic Gymnastics (Gymnastics)
+SinglesGirlsYOG,Table Tennis
+TeamMixedYouthYOG,Table Tennis
+LightweightOlympic,Boxing
+FlyweightOlympic,Boxing
+MiddleweightOlympic,Boxing
+IndividualAllAroundGirlsYOG,Artistic Gymnastics (Gymnastics)
+FloorExerciseGirlsYOG,Artistic Gymnastics (Gymnastics)
+VaultGirlsYOG,Artistic Gymnastics (Gymnastics)
+UnevenBarsGirlsYOG,Artistic Gymnastics (Gymnastics)
+BalanceBeamGirlsYOG,Artistic Gymnastics (Gymnastics)
+SinglesBoysYOG,Table Tennis
+200metresBreaststrokeBoysYOG,Swimming (Aquatics)
+PoleVaultGirlsYOG,Athletics
+200metresBackstrokeBoysYOG,Swimming (Aquatics)
+LightweightBoysYOG,Boxing
+400metresHurdlesGirlsYOG,Athletics
+TeamMixedYouthYOG,Judo
+63kilogramsGirlsYOG,Judo
+LongJumpBoysYOG,Athletics
+55kilogramsGirlsYOG,Taekwondo
+AirRifle10metresBoysYOG,Shooting
+100metresGirlsYOG,Athletics
+PlatformBoysYOG,Diving (Aquatics)
+200metresBackstrokeGirlsYOG,Swimming (Aquatics)
+400metresBoysYOG,Athletics
+3000metresBoysYOG,Athletics
+3000metresGirlsYOG,Athletics
+FeatherweightBoysYOG,Weightlifting
+BantamweightBoysYOG,Weightlifting
+IndividualBoysYOG,Archery
+PoleVaultBoysYOG,Athletics
+HockeyBoysYOG,Hockey
+MiddleweightBoysYOG,Weightlifting
+FeatherweightGirlsYOG,Weightlifting
+400metresGirlsYOG,Athletics
+MedleyRelayGirlsYOG,Athletics
+AirPistol10metresBoysYOG,Shooting
+50metresButterflyBoysYOG,Swimming (Aquatics)
+800metresFreestyleOlympic,Swimming (Aquatics)
+50metresBackstrokeBoysYOG,Swimming (Aquatics)
+1000metresGirlsYOG,Athletics
+LightHeavyweightBoysYOG,Boxing
+LightweightGirlsYOG,Weightlifting
+IndividualAllAroundBoysYOG,Artistic Gymnastics (Gymnastics)
+FloorExerciseBoysYOG,Artistic Gymnastics (Gymnastics)
+VaultBoysYOG,Artistic Gymnastics (Gymnastics)
+ParallelBarsBoysYOG,Artistic Gymnastics (Gymnastics)
+RingsBoysYOG,Artistic Gymnastics (Gymnastics)
+PommelledHorseBoysYOG,Artistic Gymnastics (Gymnastics)
+400metresFreestyleBoysYOG,Swimming (Aquatics)
+4100metresFreestyleRelayBoysYOG,Swimming (Aquatics)
+4100metresMedleyRelayBoysYOG,Swimming (Aquatics)
+IndividualGirlsYOG,Modern Pentathlon
+RelayMixedYouthYOG,Modern Pentathlon
+CombinedTeamMixedYouthYOG,Cycling Road (Cycling)
+MiddleweightBoysYOG,Boxing
+MadisonOlympic,Cycling Track (Cycling)
+OmniumOlympic,Cycling Road (Cycling)
+BantamweightBoysYOG,Boxing
+SingleScullsBoysYOG,Rowing
+HorizontalBarBoysYOG,Artistic Gymnastics (Gymnastics)
+JavelinThrowBoysYOG,Athletics
+800metresFreestyleGirlsYOG,Swimming (Aquatics)
+55kilogramsBoysYOG,Taekwondo
+HeavyweightBoysYOG,Weightlifting
+TeamMixedYouthYOG,Diving (Aquatics)
+FlyweightBoysYOG,Boxing
+SinglesGirlsYOG,Tennis
+DoublesGirlsYOG,Tennis
+MiddleweightGirlsYOG,Weightlifting
+IndividualGirlsYOG,Rhythmic Gymnastics (Gymnastics)
+HockeyGirlsYOG,Hockey
+SinglesGirlsYOG,Badminton
+1000metresBoysYOG,Athletics
+AirPistol10metresGirlsYOG,Shooting
+HandballGirlsYOG,Handball
+3x3BasketballGirlsYOG,3x3 Basketball (Basketball)
+FoilIndividualBoysYOG,Fencing
+SuperHeavyweightBoysYOG,Boxing
+CyclingRoadCycling,Cycling Track (Cycling)
+RoadRaceIndividualOlympic,Cycling Track (Cycling)
+IndividualTimeTrialOlympic,Cycling Track (Cycling)
+OmniumOlympic,Cycling Road (Cycling)
+OnePersonDinghyGirlsYOG,Sailing
+WelterweightBoysYOG,Boxing
+CoxlessPairsGirlsYOG,Rowing
+IndividualGirlsYOG,Trampolining (Gymnastics)
+HighJumpBoysYOG,Athletics
+SuperGBoysYOG,Alpine Skiing (Skiing)
+GiantSlalomBoysYOG,Alpine Skiing (Skiing)
+SlalomBoysYOG,Alpine Skiing (Skiing)
+CombinedBoysYOG,Alpine Skiing (Skiing)
+SuperGGirlsYOG,Alpine Skiing (Skiing)
+GiantSlalomGirlsYOG,Alpine Skiing (Skiing)
+SlalomGirlsYOG,Alpine Skiing (Skiing)
+CombinedGirlsYOG,Alpine Skiing (Skiing)
+SprintGirlsYOG,Cross Country Skiing (Skiing)
+5kilometresGirlsYOG,Cross Country Skiing (Skiing)
+SlopestyleOlympic,Freestyle Skiing (Skiing)
+HalfpipeOlympic,Freestyle Skiing (Skiing)
+SlopestyleOlympic,Freestyle Skiing (Skiing)
+SinglesBoysYOG,Luge
+TwoBoysYOG,Bobsleigh (Bobsleigh)
+HalfpipeOlympic,Freestyle Skiing (Skiing)
+HalfpipeBoysYOG,Freestyle Skiing (Skiing)
+SlopestyleBoysYOG,Freestyle Skiing (Skiing)
+SinglesGirlsYOG,Luge
+TeamRelayMixedYouthYOG,Luge
+NormalHillIndividualOlympic,Ski Jumping (Skiing)
+MediumHillIndividualGirlsYOG,Ski Jumping (Skiing)
+MediumHillTeamMixedYouthYOG,Ski Jumping (Skiing)
+MediumHillIndividualBoysYOG,Ski Jumping (Skiing)
+BigAirOlympic,Freestyle Skiing (Skiing)
+6kilometresSprintGirlsYOG,Biathlon
+75kilometresPursuitGirlsYOG,Biathlon
+SinglesGirlsYOG,Figure Skating (Skating)
+SinglesBoysYOG,Figure Skating (Skating)
+MediumHill10kmIndividualBoysYOG,Nordic Combined (Skiing)
+MediumHillTeamMixedYouthYOG,Nordic Combined (Skiing)
+AlpineSkiingSkiing,Snowboarding (Skiing)
+SuperGOlympic,Snowboarding (Skiing)
+SnowboardingSkiing,Alpine Skiing (Skiing)
+ParallelGiantSlalomOlympic,Alpine Skiing (Skiing)
+BigAirOlympic,Freestyle Skiing (Skiing)
+HalfpipeGirlsYOG,Freestyle Skiing (Skiing)
+26kilometresand275kilometresRelayMixedYouthYOG,Biathlon
+MixedSports,Biathlon
+CrossCountryBiathlonRelayMixedYouthYOG,Biathlon
+SlopestyleBoysYOG,Snowboarding (Skiing)
+HalfpipeBoysYOG,Snowboarding (Skiing)
+500metresGirlsYOG,Short Track Speed Skating (Skating)
+3000metresRelayMixedYouthYOG,Short Track Speed Skating (Skating)
+1000metresGirlsYOG,Short Track Speed Skating (Skating)
+ParkOlympic,Skateboarding (Roller Sports)
+TeamMixedYouthYOG,Figure Skating (Skating)
+TwoGirlsYOG,Bobsleigh (Bobsleigh)
+CrossCountryBiathlonRelayMixedYouthYOG,Mixed Sports
+CrossCountrySkiingSkiing,Mixed Sports
+SprintBoysYOG,Mixed Sports
+10kilometresBoysYOG,Mixed Sports
+IceHockeyGirlsYOG,Ice Hockey (Ice Hockey)
+75kilometresSprintBoysYOG,Biathlon
+10kilometresPursuitBoysYOG,Biathlon
+AirRifle10metresTeamMixedYouthYOG,Shooting
+HeavyweightGirlsYOG,Weightlifting
+8100metresRelayMixedYouthYOG,Athletics
+RugbySevensOlympic,Rugby Sevens (Rugby)
+SprintGirlsYOG,Triathlon
+RelayMixedYouthYOG,Triathlon
+200metresGirlsYOG,Athletics
+HammerThrowGirlsYOG,Athletics
+2000metresSteeplechaseGirlsYOG,Athletics
+FeatherweightOlympic,Boxing
+52kilogramsGirlsYOG,Judo
+RugbySevensGirlsYOG,Rugby Sevens (Rugby)
+70kilogramsFreestyleGirlsYOG,Wrestling
+Hockey5sGirlsYOG,Hockey 5s
+63kilogramsGirlsYOG,Taekwondo
+HighJumpGirlsYOG,Athletics
+SingleScullsGirlsYOG,Rowing
+1500metresGirlsYOG,Athletics
+AirPistol10metresTeamMixedYouthYOG,Shooting
+46kilogramsFreestyleGirlsYOG,Wrestling
+JavelinThrowGirlsYOG,Athletics
+DiscusThrowGirlsYOG,Athletics
+5000metresRaceWalkGirlsYOG,Athletics
+IndividualGirlsYOG,Golf
+TeamMixedYouthYOG,Golf
+63kilogramsGirlsYOG,Taekwondo
+FlyweightGirlsYOG,Boxing
+DoublesMixedYouthYOG,Badminton
+SabreIndividualGirlsYOG,Fencing
+49kilogramsGirlsYOG,Taekwondo
+WindsurferGirlsYOG,Sailing
+DoublesMixedYouthYOG,Tennis
+800metresGirlsYOG,Athletics
+SuperHeavyweightGirlsYOG,Weightlifting
+TripleJumpGirlsYOG,Athletics
+44kilogramsGirlsYOG,Taekwondo
+MiddleweightGirlsYOG,Boxing
+WelterweightOlympic,Boxing
+peIndividualGirlsYOG,Fencing
+78kilogramsGirlsYOG,Judo
+2000metresSteeplechaseBoysYOG,Athletics
+800metresFreestyleBoysYOG,Swimming (Aquatics)
+RugbySevensOlympic,Rugby Sevens (Rugby)
+WindsurferBoysYOG,Sailing
+VolleyballBoysYOG,Volleyball (Volleyball)
+SuperHeavyweightBoysYOG,Weightlifting
+ShotPutBoysYOG,Athletics
+IndividualBoysYOG,Modern Pentathlon
+CoxlessPairsBoysYOG,Rowing
+TripleJumpBoysYOG,Athletics
+LightFlyweightBoysYOG,Boxing
+400metresHurdlesBoysYOG,Athletics
+SinglesBoysYOG,Tennis
+DoublesBoysYOG,Tennis
+IndividualOpenYouthYOG,Equestrian Jumping (Equestrian)
+TeamOpenYouthYOG,Equestrian Jumping (Equestrian)
+100kilogramsBoysYOG,Judo
+55kilogramsBoysYOG,Judo
+SinglesBoysYOG,Badminton
+CanoeSinglesHeadtoHeadBoysYOG,Canoe Sprint (Canoeing)
+CanoeSinglesObstacleSlalomBoysYOG,Canoe Sprint (Canoeing)
+peIndividualBoysYOG,Fencing
+LightweightBoysYOG,Weightlifting
+76kilogramsFreestyleBoysYOG,Wrestling
+110metresHurdlesBoysYOG,Athletics
+HeavyweightBoysYOG,Boxing
+81kilogramsBoysYOG,Judo
+KayakSinglesHeadtoHeadBoysYOG,Canoe Sprint (Canoeing)
+KayakSinglesObstacleSlalomBoysYOG,Canoe Sprint (Canoeing)
+1500metresBoysYOG,Athletics
+85kilogramsGrecoRomanBoysYOG,Wrestling
+OnePersonDinghyBoysYOG,Sailing
+HandballBoysYOG,Handball
+RugbySevensBoysYOG,Rugby Sevens (Rugby)
+IndividualBoysYOG,Trampolining (Gymnastics)
+100kilogramsFreestyleBoysYOG,Wrestling
+73kilogramsBoysYOG,Taekwondo
+66kilogramsBoysYOG,Judo
+DiscusThrowBoysYOG,Athletics
+HammerThrowBoysYOG,Athletics
+CombinedTeamBoysYOG,Cycling Road (Cycling)
+RelayMixedYouthYOG,Cycling Road (Cycling)
+Hockey5sBoysYOG,Hockey 5s
+48kilogramsBoysYOG,Taekwondo
+SabreIndividualBoysYOG,Fencing
+IndividualTimeTrialOlympic,Cycling Track (Cycling)
+SprintBoysYOG,Cross Country Skiing (Skiing)
+10kilometresBoysYOG,Cross Country Skiing (Skiing)
+CrossBoysYOG,Cross Country Skiing (Skiing)
+FreestyleSkiingSkiing,Alpine Skiing (Skiing)
+SkiCrossBoysYOG,Alpine Skiing (Skiing)
+SlopestyleGirlsYOG,Snowboarding (Skiing)
+HalfpipeGirlsYOG,Snowboarding (Skiing)
+TeamMixedYouthYOG,Alpine Skiing (Skiing)
+SprintGirlsYOG,Mixed Sports
+5kilometresGirlsYOG,Mixed Sports
+SlopestyleGirlsYOG,Freestyle Skiing (Skiing)
+DoublesOpenYouthYOG,Luge
+SkeletonGirlsYOG,Skeleton (Bobsleigh)
+6and75kilometresSingleRelayMixedYouthYOG,Biathlon
+SkiCrossGirlsYOG,Freestyle Skiing (Skiing)
+CrossGirlsYOG,Cross Country Skiing (Skiing)
+PairsMixedYouthYOG,Figure Skating (Skating)
+500metresGirlsYOG,Speed Skating (Skating)
+TeamSprintMixedYouthYOG,Speed Skating (Skating)
+1500metresGirlsYOG,Speed Skating (Skating)
+MassStartGirlsYOG,Speed Skating (Skating)
+500metresBoysYOG,Short Track Speed Skating (Skating)
+1000metresBoysYOG,Short Track Speed Skating (Skating)
+MixedSports,Cross Country Skiing (Skiing)
+CrossCountrySkiingSkiJumpingNordicCombinedTeamMixedYouthYOG,Cross Country Skiing (Skiing)
+CrossCountrySkiingSkiJumpingNordicCombinedTeamMixedYouthYOG,Mixed Sports
+SkiJumpingSkiing,Mixed Sports
+NormalHillTeamMixedYouthYOG,Mixed Sports
+NordicCombinedSkiing,Mixed Sports
+NormalHill5kmIndividualBoysYOG,Mixed Sports
+NormalHillIndividualBoysYOG,Ski Jumping (Skiing)
+IceDancingMixedYouthYOG,Figure Skating (Skating)
+NormalHillIndividualBoysYOG,Mixed Sports
+CrossBoysYOG,Snowboarding (Skiing)
+FreestyleSnowboardRelayMixedYouthYOG,Mixed Sports
+SnowboardingSkiing,Mixed Sports
+CrossGirlsYOG,Mixed Sports
+3000metresGirlsYOG,Speed Skating (Skating)
+DoublesMixedYouthYOG,Curling
+CurlingMixedYouthYOG,Curling
+NormalHillIndividualGirlsYOG,Mixed Sports
+1500metresBoysYOG,Speed Skating (Skating)
+3000metresBoysYOG,Speed Skating (Skating)
+MassStartBoysYOG,Speed Skating (Skating)
+3000metresRelayMixedYouthYOG,Speed Skating (Skating)
+1000metresGirlsYOG,Speed Skating (Skating)
+500metresBoysYOG,Speed Skating (Skating)
+SkillsChallengeGirlsYOG,Ice Hockey (Ice Hockey)
+MonobobBoysYOG,Bobsleigh (Bobsleigh)
+FreestyleSkiingSkiing,Mixed Sports
+SkiCrossGirlsYOG,Mixed Sports
+BigAirGirlsYOG,Freestyle Skiing (Skiing)
+SkeletonBoysYOG,Skeleton (Bobsleigh)
+Longesttimetravelled2HandicapOpenOlympicnonmedal,Ballooning (Air Sports)
+Longesttimetravelled3OpenOlympicnonmedal,Ballooning (Air Sports)
+Closestlandingtotarget3CombinedOpenOlympicnonmedal,Ballooning (Air Sports)
+Closestlandingtotarget3IntermediatestopOpenOlympicnonmedal,Ballooning (Air Sports)
+Closestlandingtotarget3FinalstopOpenOlympicnonmedal,Ballooning (Air Sports)
+EquestrianDrivingEquestrian,Ballooning (Air Sports)
+FourInHandCompetitionOpenOlympic,Ballooning (Air Sports)
+MixedSports,Freestyle Skiing (Skiing)
+FreestyleSnowboardRelayMixedYouthYOG,Freestyle Skiing (Skiing)
+SprintGirlsYOG,Ski Mountaineering
+RelayMixedYouthYOG,Ski Mountaineering
+IndividualGirlsYOG,Ski Mountaineering
+SkiCrossBoysYOG,Freestyle Skiing (Skiing)
+SkiCrossGirlsYOG,Alpine Skiing (Skiing)
+MixedSports,Alpine Skiing (Skiing)
+FreestyleSnowboardRelayMixedYouthYOG,Alpine Skiing (Skiing)
+MonobobGirlsYOG,Bobsleigh (Bobsleigh)
+10kilometresGirlsYOG,Biathlon
+125kilometresBoysYOG,Biathlon
+SprintGirlsYOG,Biathlon
+5kilometresGirlsYOG,Biathlon
+CrossGirlsYOG,Biathlon
+SprintBoysYOG,Biathlon
+10kilometresBoysYOG,Biathlon
+CrossBoysYOG,Biathlon
+BigAirBoysYOG,Freestyle Skiing (Skiing)
+3on3IceHockeyBoysYOG,3-on-3 Ice Hockey (Ice Hockey)
+3on3IceHockeyGirlsYOG,3-on-3 Ice Hockey (Ice Hockey)
+IceHockeyBoysYOG,Ice Hockey (Ice Hockey)
+3on3IceHockeyIceHockey,Ice Hockey (Ice Hockey)
+3on3IceHockeyGirlsYOG,Ice Hockey (Ice Hockey)
+DoublesBoysYOG,Luge
+DoublesGirlsYOG,Luge
+NormalHill6kmIndividualBoysYOG,Nordic Combined (Skiing)
+NormalHillTeamMixedYouthYOG,Nordic Combined (Skiing)
+NormalHill4kmIndividualGirlsYOG,Nordic Combined (Skiing)
+NormalHillIndividualGirlsYOG,Ski Jumping (Skiing)
+NormalHillTeamMixedYouthYOG,Ski Jumping (Skiing)
+NormalHill4kmIndividualGirlsYOG,Ski Jumping (Skiing)
+MixedSports,Ski Jumping (Skiing)
+CrossCountrySkiingSkiJumpingNordicCombinedTeamMixedYouthYOG,Ski Jumping (Skiing)
+MixedSports,Nordic Combined (Skiing)
+CrossCountrySkiingSkiJumpingNordicCombinedTeamMixedYouthYOG,Nordic Combined (Skiing)
+NormalHill6kmIndividualBoysYOG,Ski Jumping (Skiing)
+MixedSports,Snowboarding (Skiing)
+FreestyleSnowboardRelayMixedYouthYOG,Snowboarding (Skiing)
+BigAirGirlsYOG,Snowboarding (Skiing)
+BigAirBoysYOG,Snowboarding (Skiing)
+CrossGirlsYOG,Snowboarding (Skiing)
+SprintBoysYOG,Ski Mountaineering
+IndividualBoysYOG,Ski Mountaineering
+Kumite61kgOlympic,Karate
+ShortboardOlympic,Surfing
+ParkOlympic,Cycling BMX Freestyle (Cycling)
+CanadianSingles200metresOlympic,Canoe Sprint (Canoeing)
+CanadianDoubles500metresOlympic,Canoe Sprint (Canoeing)
+CombinedOlympic,Sport Climbing
+StreetOlympic,Skateboarding (Roller Sports)
+ParkOlympic,Skateboarding (Roller Sports)
+ShortboardOlympic,Surfing
+ParkOlympic,Cycling BMX Freestyle (Cycling)
+CombinedOlympic,Sport Climbing
+Kumite75kgOlympic,Karate
+StreetOlympic,Skateboarding (Roller Sports)
+Kumite55kgOlympic,Karate
+Kumite67kgOlympic,Karate
+3x3BasketballOlympic,3x3 Basketball (Basketball)
+Kumite75kgOlympic,Karate
+3x3BasketballOlympic,3x3 Basketball (Basketball)
+FootballGirlsYOG,Football (Football)
+Kumite61kgOlympic,Karate
+KataOlympic,Karate
+KataOlympic,Karate
+IndividualBoysYOG,Golf
+RoadRaceIndividualOlympic,Cycling Track (Cycling)
+NormalHillTeamMixedOlympic,Nordic Combined (Skiing)
+CombinedBoysYOG,Roller Skating (Roller Sports)
+SlalomOlympic,
