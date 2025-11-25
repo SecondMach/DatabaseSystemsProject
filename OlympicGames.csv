@@ -1,53 +1,53 @@
-Year,City
-1992,Barcelona
-2012,London
-1920,Antwerpen
-1900,Paris
-1988,Calgary
-1992,Albertville
-1994,Lillehammer
-1932,Los Angeles
-2002,Salt Lake City
-1952,Helsinki
-1980,Lake Placid
-2000,Sydney
-1996,Atlanta
-1912,Stockholm
-1924,Paris
-2014,Sochi
-1948,London
-1998,Nagano
-2006,Torino
-2008,Beijing
-2016,Rio de Janeiro
-2004,Athina
-1960,Squaw Valley
-1964,Innsbruck
-1984,Sarajevo
-1984,Los Angeles
-1968,Mexico City
-1972,Munich
-1988,Seoul
-1936,Berlin
-1952,Oslo
-1956,Cortina d'Ampezzo
-1956,Melbourne
-1960,Roma
-1928,Amsterdam
-1976,Montreal
-1980,Moskva
-1964,Tokyo
-2010,Vancouver
-1968,Grenoble
-1906,Athina
-1972,Sapporo
-1976,Innsbruck
-1924,Chamonix
-1904,St. Louis
-1928,Sankt Moritz
-1908,London
-1948,Sankt Moritz
-1932,Lake Placid
-1936,Garmisch-Partenkirchen
-1896,Athina
-1956,Stockholm
+Year,Season,City
+1992,Summer,Barcelona
+2012,Summer,London
+1920,Summer,Antwerpen
+1900,Summer,Paris
+1988,Winter,Calgary
+1992,Winter,Albertville
+1994,Winter,Lillehammer
+1932,Summer,Los Angeles
+2002,Winter,Salt Lake City
+1952,Summer,Helsinki
+1980,Winter,Lake Placid
+2000,Summer,Sydney
+1996,Summer,Atlanta
+1912,Summer,Stockholm
+1924,Summer,Paris
+2014,Winter,Sochi
+1948,Summer,London
+1998,Winter,Nagano
+2006,Winter,Torino
+2008,Summer,Beijing
+2016,Summer,Rio de Janeiro
+2004,Summer,Athina
+1960,Winter,Squaw Valley
+1964,Winter,Innsbruck
+1984,Winter,Sarajevo
+1984,Summer,Los Angeles
+1968,Summer,Mexico City
+1972,Summer,Munich
+1988,Summer,Seoul
+1936,Summer,Berlin
+1952,Winter,Oslo
+1956,Winter,Cortina d'Ampezzo
+1956,Summer,Melbourne
+1960,Summer,Roma
+1928,Summer,Amsterdam
+1976,Summer,Montreal
+1980,Summer,Moskva
+1964,Summer,Tokyo
+2010,Winter,Vancouver
+1968,Winter,Grenoble
+1906,Summer,Athina
+1972,Winter,Sapporo
+1976,Winter,Innsbruck
+1924,Winter,Chamonix
+1904,Summer,St. Louis
+1928,Winter,Sankt Moritz
+1908,Summer,London
+1948,Winter,Sankt Moritz
+1932,Winter,Lake Placid
+1936,Winter,Garmisch-Partenkirchen
+1896,Summer,Athina
+1956,Summer,Stockholm

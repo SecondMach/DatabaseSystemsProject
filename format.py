@@ -16,17 +16,6 @@ results_df: pd.DataFrame = pd.read_csv("clean-data/results.csv")
 athlete_events_df: pd.DataFrame = pd.read_csv("athlete_events.csv")
 noc_regions_df: pd.DataFrame = pd.read_csv("clean-data/noc_regions.csv")
 
-
-# Note that our relational database needs to be reformatted to have everything
-# fit in at least 3NF.
-OlympicGames = athlete_events_df[['Year', 'Season', 'City']].drop_duplicates()
-OlympicGames.to_csv('OlympicGames.csv', index=False)
-
-YearHosted = athlete_events_df[['Year', 'City']].drop_duplicates()
-YearHosted.to_csv('YearHosted.csv', index=False)
-
-Sport = athlete_events_df[['Year', 'Event']].drop_duplicates()
-
 def get_gender(event: str) -> str:
     """Gets the gender from an event
     Args:
@@ -68,25 +57,28 @@ def format_event(event: str) -> str:
 
     return formatted_event
 
-Sport['Gender'] = Sport['Event'].apply(get_gender)
-Sport['Event'] = Sport['Event'].apply(format_event)
-Sport.to_csv('Sport.csv', index=False)
 
-DisciplineOf = results_df[['event', 'discipline']].drop_duplicates()
+# Note that our relational database needs to be reformatted to have everything
+# fit in at least 3NF.
+OlympicGames = athlete_events_df[['Year', 'Season', 'City']].drop_duplicates()
+OlympicGames.to_csv('OlympicGames.csv', index=False)
 
-DisciplineOf.rename(columns={
-    'discipline': 'Discipline',
-    'event': 'Event'
-}, inplace=True)
+Event = athlete_events_df[['Year', 'Event']].drop_duplicates()
+Event['Gender'] = Event['Event'].apply(get_gender)
+Event['Event'] = Event['Event'].apply(format_event)
+Event.to_csv('Event.csv', index=False)
 
-DisciplineOf['Event'] = DisciplineOf['Event'].apply(format_event)
-DisciplineOf.to_csv('DisciplineOf.csv', index=False)
-
-Athlete = bios_df[['athlete_id', 'name', 'born_date', 'born_country', 'NOC']]
+Athlete = bios_df[['athlete_id', 'name', 'born_date', 'born_country',]]
 
 renamed_athlete_cols = {col: col.capitalize() for col in Athlete.columns}
 Athlete.rename(columns=renamed_athlete_cols, inplace=True)
 Athlete.to_csv('Athlete.csv', index=False)
+
+CitizenOf = bios_df[['athlete_id', 'NOC']].drop_duplicates()
+CitizenOf.rename(columns={
+    'athlete_id': 'Athlete_ID'
+}, inplace=True)
+CitizenOf.to_csv('CitizenOf.csv', index=False)
 
 Country = noc_regions_df[['NOC', 'region']].drop_duplicates()
 
@@ -96,31 +88,25 @@ Country.rename(columns={
 
 Country.to_csv('Country.csv', index=False)
 
-EventPlayedIn = athlete_events_df[['Year', 'City', 'Event']].drop_duplicates()
-EventPlayedIn['Event'] = EventPlayedIn['Event'].apply(format_event)
-EventPlayedIn.to_csv('EventPlayedIn.csv', index=False)
+# EventPlayedIn = athlete_events_df[['Year', 'City', 'Event']].drop_duplicates()
+# EventPlayedIn['Event'] = EventPlayedIn['Event'].apply(format_event)
+# EventPlayedIn.to_csv('EventPlayedIn.csv', index=False)
 
-AthleteParticipated = results_df[['athlete_id', 'event', 'year']].drop_duplicates()
-AthleteParticipated.rename(columns={
-    'athlete_id': 'Athlete_ID',
-    'event': 'Event',
-    'year': 'Year'
-}, inplace=True)
-AthleteParticipated['Event'] = AthleteParticipated['Event'].apply(format_event)
-AthleteParticipated.to_csv('AthleteParticipated.csv', index=False)
+# AthleteParticipated = results_df[['athlete_id', 'event', 'year']].drop_duplicates()
+# AthleteParticipated.rename(columns={
+#     'athlete_id': 'Athlete_ID',
+#     'event': 'Event',
+#     'year': 'Year'
+# }, inplace=True)
+# AthleteParticipated['Event'] = AthleteParticipated['Event'].apply(format_event)
+# AthleteParticipated.to_csv('AthleteParticipated.csv', index=False)
 
-Result = results_df[['athlete_id', 'event', 'year', 'medal']].drop_duplicates()
+Result = results_df[['athlete_id', 'event', 'year', 'place', 'noc']].drop_duplicates()
 Result.rename(columns={
     'athlete_id': 'Athlete_ID',
     'event': 'Event',
     'year': 'Year',
-    'medal': 'Medal'
+    'place': 'Place'
 }, inplace=True)
 Result['Event'] = Result['Event'].apply(format_event)
 Result.to_csv('Result.csv', index=False)
-
-CitizenOf = bios_df[['athlete_id', 'NOC']].drop_duplicates()
-CitizenOf.rename(columns={
-    'athlete_id': 'Athlete_ID'
-}, inplace=True)
-CitizenOf.to_csv('CitizenOf.csv', index=False)

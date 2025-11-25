@@ -16,41 +16,23 @@ DB_USER = os.environ.get("DB_USER")
 DB_PASSWORD = os.environ.get("DB_PASSWORD")
 DB_HOST = os.environ.get("DB_HOST")
 DB_PORT = os.environ.get("DB_PORT")
+DB_NAME = os.environ.get("DB_NAME")
 
 # 2. Create the Connection String to the SERVER (No DB name yet)
-SERVER_URI = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}"
+DATABASE_URI = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
 try:
-    # --- STEP 1: Create the Database if it doesn't exist ---
-    print("Connecting to SQL Server to check for database...")
-    server_engine = create_engine(SERVER_URI)
-    
-    # We use a temporary connection to create the DB
-    with server_engine.connect() as conn:
-        # 'commit' is needed because CREATE DATABASE cannot run inside a transaction block in some drivers
-        conn.execute(text(f"CREATE DATABASE IF NOT EXISTS {CHOSEN_DB_NAME}"))
-        print(f"Database '{CHOSEN_DB_NAME}' is ready.")
-
-    # Dispose of the server engine
-    server_engine.dispose()
-
-    # --- STEP 2: Connect to the specific Database ---
-    DATABASE_URI = f"{SERVER_URI}/{CHOSEN_DB_NAME}"
     engine = create_engine(DATABASE_URI)
 
     print("Loading CSV files...")
-    # Load CSVs (Assuming files are in the same directory)
     data_files = {
+        'City': 'cities.csv',
         'OlympicGames': 'OlympicGames.csv',
-        'YearHosted': 'YearHosted.csv',
-        'Sport': 'Sport.csv',
-        'DisciplineOf': 'DisciplineOf.csv',
+        'Event': 'Event.csv',
         'Athlete': 'Athlete.csv',
+        'CitizenOf': 'CitizenOf.csv',
         'Country': 'Country.csv',
-        'EventPlayedIn': 'EventPlayedIn.csv',
-        'AthleteParticipated': 'AthleteParticipated.csv',
-        'Result': 'Result.csv',
-        'CitizenOf': 'CitizenOf.csv'
+        'Result': 'Result.csv'
     }
 
     for table_name, file_name in data_files.items():
@@ -71,4 +53,3 @@ except OperationalError as e:
     print(f"Details: {e}")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
-    
