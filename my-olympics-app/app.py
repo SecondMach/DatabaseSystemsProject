@@ -82,6 +82,21 @@ def update_athlete(athlete_id):
         return jsonify({"message": "Athlete updated successfully!"})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+@app.route('/api/athletes/<int:athlete_id>', methods=['DELETE'])
+def delete_athlete(athlete_id):
+    try:
+        with engine.connect() as conn:
+            query = text("DELETE FROM Result WHERE Athlete_id = :athlete_id")
+            conn.execute(query, {"athlete_id": athlete_id})
+            query = text("DELETE FROM CitizenOf WHERE Athlete_id = :athlete_id")
+            conn.execute(query, {"athlete_id": athlete_id})
+            query = text("DELETE FROM Athlete WHERE Athlete_id = :athlete_id")
+            conn.execute(query, {"athlete_id": athlete_id})
+            conn.commit()
+        return jsonify({"message": "Athlete deleted successfully!"})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 # Add Athlete (For the form in athlete.html)
 @app.route('/api/athletes', methods=['POST'])

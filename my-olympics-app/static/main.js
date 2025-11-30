@@ -39,6 +39,23 @@ document.addEventListener('DOMContentLoaded', () => {
                         populateFormForEdit(athlete);
                     });
 
+                    const deleteBtn = row.querySelector('.delete-btn');
+                    deleteBtn.addEventListener('click', () => {
+                        if (confirm(`Are you sure you want to delete athlete: ${athlete.first_name} ${athlete.last_name}?`)) {
+                            fetch(`/api/athletes/${athlete.id}`, {
+                                method: 'DELETE'
+                            })
+                            .then(res => {
+                                if (res.ok) {
+                                    alert('Athlete Deleted Successfully!');
+                                    window.location.reload(); 
+                                } else {
+                                    res.json().then(data => alert('Error: ' + data.error));
+                                }
+                            });
+                        }
+                    });
+
                     athleteTableBody.appendChild(row);
                 });
             })
