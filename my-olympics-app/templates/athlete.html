@@ -30,7 +30,7 @@
         <tr>
           <!-- <th>Name</th><th>Country</th><th>Sport</th><th>Year</th><th>Division</th><th>Medals</th><th>Actions (Admin)</th> -->
            <!-- Changed to represent modified athlete table -->
-          <th>Name</th><th>Date Of Birth</th><th>Country</th>
+          <th>Date Of Birth</th><th>Country</th><th>First Name</th><th>Last Name</th><th>Actions (Admin)</th>
         </tr>
       </thead>
       <tbody id="athleteTableBody">
@@ -42,9 +42,10 @@
 <section class="athlete-form admin-only">
   <h3>Add New Athlete (Admin)</h3>
   <form>
-    <input type="text" placeholder="Name" required>
     <input type="date" placeholder="Date of Birth" required> 
     <input type="text" placeholder="Born Country" required>
+    <input type="text" placeholder="First Name" required>
+    <input type="text" placeholder="Last Name" required>
     <button type="submit">Add Athlete</button>
   </form>
 </section>

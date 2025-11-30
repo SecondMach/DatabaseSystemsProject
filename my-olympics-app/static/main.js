@@ -19,9 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     // We now use 'born_date' and 'born_country' to match app.py keys
                     const row = `
                         <tr>
-                            <td>${athlete.name}</td>
                             <td>${athlete.born_date || 'N/A'}</td> 
                             <td>${athlete.born_country}</td>
+                            <td>${athlete.first_name}</td>
+                            <td>${athlete.last_name}</td>
+                            <td><button class="edit-btn">Edit</button>
                         </tr>
                     `;
                     athleteTableBody.innerHTML += row;
@@ -45,9 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Map the inputs to the keys expected by app.py
             // Make sure your HTML form inputs are in this order: Name, Date, Country
             const newAthlete = {
-                Name: inputs[0].value,
                 Born_date: inputs[1].value, 
-                Born_country: inputs[2].value
+                Born_country: inputs[2].value,
+                FirstName: inputs[3].value,
+                LastName: inputs[4].value
             };
 
             fetch('/api/athletes', {

@@ -1,14 +1,16 @@
 from flask import Flask, render_template, jsonify, request, redirect, url_for
 from sqlalchemy import create_engine, text
+import os
 
 app = Flask(__name__)
 
 # --- CONFIGURATION ---
 # REPLACE THESE WITH YOUR AWS/AZURE DETAILS
-DB_USER = "admin"
-DB_PASSWORD = "your_password"
-DB_HOST = "your-db-endpoint.rds.amazonaws.com"
-DB_NAME = "olympics"
+DB_USER = os.environ.get("DB_USER")
+DB_PASSWORD = os.environ.get("DB_PASSWORD")
+DB_HOST = os.environ.get("DB_HOST")
+DB_PORT = os.environ.get("DB_PORT")
+DB_NAME = os.environ.get("DB_NAME")
 
 DATABASE_URI = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
 engine = create_engine(DATABASE_URI)
@@ -44,11 +46,11 @@ def get_athletes():
     try:
         with engine.connect() as conn:
             # Matches the columns in your HTML table
-            query = text("SELECT Name, Born_date, Born_country FROM Athletes")
+            query = text("SELECT Born_date, Born_country, FirstName, LastName FROM Athlete LIMIT 100")
             result = conn.execute(query)
             # Convert database rows to a list of dictionaries (JSON)
             athletes = [
-                {"name": row[0], "born_date": row[1], "born_country": row[2]}
+                {"born_date": row[0], "born_country": row[1], "first_name": row[2], "last_name": row[3]}
                 for row in result
             ]
         return jsonify(athletes)
@@ -63,8 +65,8 @@ def add_athlete():
         with engine.connect() as conn:
             # Note that Athlete_ID is auto-incremented
             query = text("""
-                INSERT INTO athletes (Name, Born_date, Born_country)
-                VALUES (:Name, :Born_date, :Born_country)
+                INSERT INTO Athlete (Born_date, Born_country, FirstName, LastName)
+                VALUES (:Born_date, :Born_country, :FirstName, :LastName)
             """)
             conn.execute(query, data)
             conn.commit()
@@ -77,7 +79,7 @@ def add_athlete():
 def get_analytics():
     # Example: Top 5 countries by total medals (You can adjust this query!)
     with engine.connect() as conn:
-        query = text("SELECT country, SUM(medals) as total FROM athletes GROUP BY country ORDER BY total DESC LIMIT 5")
+        query = text("SELECT country, SUM(medals) as total FROM Athlete GROUP BY country ORDER BY total DESC LIMIT 5")
         result = conn.execute(query)
         data = [{"label": row[0], "value": row[1]} for row in result]
     return jsonify(data)
