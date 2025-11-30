@@ -9,9 +9,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# 1. Define the Database Name you WANT to use
-CHOSEN_DB_NAME = "olympics_data" 
-
 DB_USER = os.environ.get("DB_USER")
 DB_PASSWORD = os.environ.get("DB_PASSWORD")
 DB_HOST = os.environ.get("DB_HOST")
