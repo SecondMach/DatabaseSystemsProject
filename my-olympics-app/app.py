@@ -40,24 +40,50 @@ def login():
 
 # --- API ROUTES (The "Brain") ---
 
-# 1. Get Athletes (For the table in athlete.html)
+# Get Athletes (For the table in athlete.html)
 @app.route('/api/athletes', methods=['GET'])
 def get_athletes():
     try:
         with engine.connect() as conn:
             # Matches the columns in your HTML table
-            query = text("SELECT Born_date, Born_country, FirstName, LastName FROM Athlete LIMIT 100")
+            query = text("SELECT Athlete_id,Born_date, Born_country, FirstName, LastName FROM Athlete LIMIT 100")
             result = conn.execute(query)
             # Convert database rows to a list of dictionaries (JSON)
             athletes = [
-                {"born_date": row[0], "born_country": row[1], "first_name": row[2], "last_name": row[3]}
+                {
+                "id": row[0],
+                 "born_date": row[1],
+                 "born_country": row[2],
+                 "first_name": row[3],
+                 "last_name": row[4]}
                 for row in result
             ]
         return jsonify(athletes)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+# Update Athlete (For the form in athlete.html)
+@app.route('/api/athletes/<int:athlete_id>', methods=['PUT'])
+def update_athlete(athlete_id):
+    data = request.json
+    try:
+        with engine.connect() as conn:
+            query = text("""
+                UPDATE Athlete 
+                SET Born_date = :Born_date, 
+                    Born_country = :Born_country, 
+                    FirstName = :FirstName, 
+                    LastName = :LastName
+                WHERE Athlete_id = :athlete_id
+            """)
+            # Combine the data from JSON with the ID from the URL
+            conn.execute(query, {**data, "athlete_id": athlete_id})
+            conn.commit()
+        return jsonify({"message": "Athlete updated successfully!"})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
-# 2. Add Athlete (For the form in athlete.html)
+# Add Athlete (For the form in athlete.html)
 @app.route('/api/athletes', methods=['POST'])
 def add_athlete():
     data = request.json

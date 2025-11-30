@@ -1,73 +1,123 @@
 document.addEventListener('DOMContentLoaded', () => {
+    
+    // --- STATE VARIABLES ---
+    let currentEditingId = null; // null = adding mode, number = editing mode
+
+    // --- DOM ELEMENTS ---
+    // We select these at the top so all functions can access them
+    const athleteTableBody = document.getElementById('athleteTableBody');
+    const athleteForm = document.querySelector('.athlete-form form');
+    const submitBtn = athleteForm ? athleteForm.querySelector('button') : null;
 
     // ==================================================
-    // 1. ATHLETES PAGE LOGIC (Updated for new Schema)
+    // 1. ATHLETES PAGE LOGIC
     // ==================================================
-    const athleteTableBody = document.getElementById('athleteTableBody');
-    
-    // If we are on the Athlete page...
     if (athleteTableBody) {
-        // Fetch data from your Python backend
         fetch('/api/athletes')
             .then(res => res.json())
             .then(data => {
-                // Clear any existing placeholder rows
-                athleteTableBody.innerHTML = ''; 
-                
-                // Loop through the athletes sent from app.py
+                athleteTableBody.innerHTML = '';
                 data.forEach(athlete => {
-                    // We now use 'born_date' and 'born_country' to match app.py keys
-                    const row = `
-                        <tr>
-                            <td>${athlete.born_date || 'N/A'}</td> 
-                            <td>${athlete.born_country}</td>
-                            <td>${athlete.first_name}</td>
-                            <td>${athlete.last_name}</td>
-                            <td><button class="edit-btn">Edit</button>
-                        </tr>
+                    const row = document.createElement('tr');
+                    
+                    // Note: We use the keys sent from app.py
+                    row.innerHTML = `
+                        <td>${athlete.id}</td>
+                        <td>${athlete.born_date}</td>
+                        <td>${athlete.born_country}</td>
+                        <td>${athlete.first_name}</td>
+                        <td>${athlete.last_name}</td>
+                        <td>
+                            <button class="edit-btn">✎</button>
+                            <button class="delete-btn">🗑</button>
+                        </td>
                     `;
-                    athleteTableBody.innerHTML += row;
+                    
+                    // Attach Event Listener to the specific Edit button in this row
+                    const editBtn = row.querySelector('.edit-btn');
+                    editBtn.addEventListener('click', () => {
+                        populateFormForEdit(athlete);
+                    });
+
+                    athleteTableBody.appendChild(row);
                 });
             })
             .catch(err => console.error("Error loading athletes:", err));
     }
 
-    // ==================================================
-    // 2. ADD ATHLETE FORM LOGIC
-    // ==================================================
-    const athleteForm = document.querySelector('.athlete-form form');
+    //Helper function to fill the form when "Edit" is clicked
+    function populateFormForEdit(athlete) {
+        if (!athleteForm) return;
 
+        const inputs = athleteForm.querySelectorAll('input');
+        
+        // Fill inputs with the existing data from the row
+        // Indices match the HTML form order: Date, Country, First, Last
+        inputs[0].value = athlete.born_date;
+        inputs[1].value = athlete.born_country;
+        inputs[2].value = athlete.first_name;
+        inputs[3].value = athlete.last_name;
+
+        // Set the state to "Editing" using the ID from the database
+        currentEditingId = athlete.id; 
+
+        // Visual feedback
+        submitBtn.textContent = "Update Athlete"; 
+        submitBtn.style.backgroundColor = "#ffcc00"; // Gold color for edit mode
+        
+        // Scroll user to the form
+        athleteForm.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // ==================================================
+    // 2. FORM SUBMIT LOGIC (Handles ADD and EDIT)
+    // ==================================================
     if (athleteForm) {
         athleteForm.addEventListener('submit', (e) => {
             e.preventDefault();
             
-            // Get all inputs from the form
             const inputs = athleteForm.querySelectorAll('input');
             
-            // Map the inputs to the keys expected by app.py
-            // Make sure your HTML form inputs are in this order: Name, Date, Country
-            const newAthlete = {
-                Born_date: inputs[1].value, 
-                Born_country: inputs[2].value,
-                FirstName: inputs[3].value,
-                LastName: inputs[4].value
+            // Map inputs to the exact keys your app.py expects
+            const athleteData = {
+                Born_date: inputs[0].value, 
+                Born_country: inputs[1].value,
+                FirstName: inputs[2].value,
+                LastName: inputs[3].value
             };
 
-            fetch('/api/athletes', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(newAthlete)
-            })
-            .then(res => {
-                if (res.ok) {
-                    alert('Athlete Added Successfully!');
-                    window.location.reload(); // Refresh page to see the new athlete
-                } else {
-                    // If app.py returns an error (like 500), show it
-                    res.json().then(data => alert('Error: ' + data.error));
-                }
-            })
-            .catch(err => alert('Network error: ' + err));
+            if (currentEditingId) {
+                // === EDIT MODE (PUT) ===
+                fetch(`/api/athletes/${currentEditingId}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(athleteData)
+                })
+                .then(res => {
+                    if (res.ok) {
+                        alert('Athlete Updated Successfully!');
+                        window.location.reload(); 
+                    } else {
+                        res.json().then(data => alert('Error: ' + data.error));
+                    }
+                });
+
+            } else {
+                // === ADD MODE (POST) ===
+                fetch('/api/athletes', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(athleteData)
+                })
+                .then(res => {
+                    if (res.ok) {
+                        alert('Athlete Added Successfully!');
+                        window.location.reload(); 
+                    } else {
+                        res.json().then(data => alert('Error: ' + data.error));
+                    }
+                });
+            }
         });
     }
 
@@ -80,15 +130,14 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch('/api/analytics')
             .then(res => res.json())
             .then(data => {
-                // app.py sends a list of objects like: { label: 'USA', value: 120 }
                 new Chart(chartCanvas, {
                     type: 'bar',
                     data: {
-                        labels: data.map(d => d.label), // x-axis labels
+                        labels: data.map(d => d.label),
                         datasets: [{
                             label: 'Total Medals',
-                            data: data.map(d => d.value), // y-axis values
-                            backgroundColor: '#0057b7',   // Olympic Blue
+                            data: data.map(d => d.value),
+                            backgroundColor: '#0057b7',
                             borderColor: '#0057b7',
                             borderWidth: 1
                         }]
@@ -112,8 +161,6 @@ document.addEventListener('DOMContentLoaded', () => {
         loginForm.addEventListener('submit', (e) => {
             e.preventDefault();
             const username = document.getElementById('username').value;
-            
-            // Simple mock login for demonstration
             if (username) {
                 alert(`Welcome back, ${username}!`);
                 window.location.href = '/index.html';
