@@ -39,16 +39,15 @@
     </table>
   </section>
 
-  <section class="athlete-form admin-only">
-    <h3>Add New Athlete (Admin)</h3>
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="text" placeholder="Country" required>
-      <input type="text" placeholder="Sport" required>
-      <input type="text" placeholder="Year" required>
-      <input type="text" placeholder="Division" required>
-      <button type="submit">Add Athlete</button>
-    </form>
+<section class="athlete-form admin-only">
+  <h3>Add New Athlete (Admin)</h3>
+  <form>
+    <input type="text" placeholder="Name" required>
+    <input type="date" placeholder="Date of Birth" required> 
+    <input type="text" placeholder="Born Country" required>
+    <button type="submit">Add Athlete</button>
+  </form>
+</section>
   </section>
 <script src="{{ url_for('static', filename='main.js') }}"></script>
 </body>
