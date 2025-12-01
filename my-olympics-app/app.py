@@ -1,6 +1,12 @@
 from flask import Flask, render_template, jsonify, request, redirect, url_for
+from flask import Response, send_file
 from sqlalchemy import create_engine, text
 import os
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import io
+import seaborn as sns
 
 app = Flask(__name__)
 
@@ -182,7 +188,7 @@ def search_athletes():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# 3. Get Chart Data (For analytics.html)
+# Get Table Data (For analytics.html)
 @app.route('/api/analytics', methods=['GET'])
 def get_analytics():
     # Example: Top 5 countries by total medals (You can adjust this query!)
@@ -198,5 +204,37 @@ def get_analytics():
         data = [{"Name": row[0], "Medal Count": row[1]} for row in result]
     return jsonify(data)
 
+@app.route('/analytics/chart.png')
+def analytics_chart():
+    try:
+        with engine.connect() as conn:
+            query = text("""SELECT c.FullName AS Name, COUNT(r.Place) AS MedalCount
+                    FROM Country c
+                    JOIN Result r ON c.NOC = r.NOC
+                    WHERE r.Place IN (1, 2, 3)
+                    GROUP BY c.FullName
+                    ORDER BY MedalCount DESC
+                    LIMIT 5""")
+            
+            df = pd.read_sql(query, conn)
+
+        sns.set_theme(style="whitegrid")
+        plt.figure(figsize=(10, 6))
+        ax = sns.barplot(x="Name", y="MedalCount", data=df, palette="viridis")
+        ax.set_title("Top 5 Countries by Total Medals")
+        ax.set_xlabel("Country")
+        ax.set_ylabel("Medal Count")
+        plt.tight_layout()
+
+        img = io.BytesIO()
+        plt.savefig(img, format='png')
+        img.seek(0)
+        plt.close()
+
+        return send_file(img, mimetype='image/png')
+
+    except Exception as e:
+        print("Error generating chart:", e)
+        return str(e), 500
 if __name__ == '__main__':
     app.run(debug=True)
