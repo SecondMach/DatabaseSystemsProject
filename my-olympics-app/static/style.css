@@ -461,6 +461,16 @@ tr:hover {
   border-bottom: 1px solid #eee;
 }
 
+.goat-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
 /* ===== SECTIONS ===== */
 .section-title {
   text-align: center;

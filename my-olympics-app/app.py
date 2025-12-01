@@ -187,12 +187,13 @@ def search_athletes():
 def get_analytics():
     # Example: Top 5 countries by total medals (You can adjust this query!)
     with engine.connect() as conn:
-        query = text("SELECT c.FullName, COUNT(r.Place) as MedalCount" \
-        " FROM Country c JOIN Result r ON c.NOC = r.NOC" \
-            " WHERE r.Place IN (1,2,3)" \
-            " GROUP BY c.FullName" \
-            " ORDER BY MedalCount DESC" \
-                "LIMIT 10")
+        query = text("""SELECT c.FullName AS Name, COUNT(r.Place) AS MedalCount
+                        FROM Country c
+                        JOIN Result r ON c.NOC = r.NOC
+                        WHERE r.Place IN (1, 2, 3)
+                        GROUP BY c.FullName
+                        ORDER BY MedalCount DESC
+                        LIMIT 5""")
         result = conn.execute(query)
         data = [{"Name": row[0], "Medal Count": row[1]} for row in result]
     return jsonify(data)
