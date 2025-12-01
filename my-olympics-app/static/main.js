@@ -141,33 +141,40 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==================================================
     // 3. ANALYTICS PAGE LOGIC (Chart.js)
     // ==================================================
-    const chartCanvas = document.getElementById('goatChart');
+    const goatTableBody = document.getElementById('goatTableBody');
 
-    if (chartCanvas) {
+    if (goatTableBody) {
         fetch('/api/analytics')
             .then(res => res.json())
             .then(data => {
-                new Chart(chartCanvas, {
-                    type: 'bar',
-                    data: {
-                        labels: data.map(d => d.label),
-                        datasets: [{
-                            label: 'Total Medals',
-                            data: data.map(d => d.value),
-                            backgroundColor: '#0057b7',
-                            borderColor: '#0057b7',
-                            borderWidth: 1
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        scales: {
-                            y: { beginAtZero: true }
-                        }
-                    }
-                });
+                // Populate the GOAT table
+                goatTableBody.innerHTML = data.map(d => `
+                    <tr>
+                        <td>${d.Name}</td>
+                        <td>${d["Medal Count"]}</td>
+                    </tr>
+                `).join('');
             });
     }
+    //                 data: {
+    //                     labels: data.map(d => d.label),
+    //                     datasets: [{
+    //                         label: 'Total Medals',
+    //                         data: data.map(d => d.value),
+    //                         backgroundColor: '#0057b7',
+    //                         borderColor: '#0057b7',
+    //                         borderWidth: 1
+    //                     }]
+    //                 },
+    //                 options: {
+    //                     responsive: true,
+    //                     scales: {
+    //                         y: { beginAtZero: true }
+    //                     }
+    //                 }
+    //             });
+    //         });
+    // }
 
     // ==================================================
     // 4. LOGIN LOGIC

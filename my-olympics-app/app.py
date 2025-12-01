@@ -46,7 +46,7 @@ def get_athletes():
     try:
         with engine.connect() as conn:
             # Matches the columns in your HTML table
-            query = text("SELECT Athlete_id,Born_date, Born_country, FirstName, LastName FROM Athlete LIMIT 100")
+            query = text("SELECT Athlete_id,Born_date, Born_country, FirstName, LastName FROM Athlete LIMIT 20")
             result = conn.execute(query)
             # Convert database rows to a list of dictionaries (JSON)
             athletes = [
@@ -82,7 +82,8 @@ def update_athlete(athlete_id):
         return jsonify({"message": "Athlete updated successfully!"})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    
+
+# Delete Athlete (For the form in athlete.html)
 @app.route('/api/athletes/<int:athlete_id>', methods=['DELETE'])
 def delete_athlete(athlete_id):
     try:
@@ -116,13 +117,18 @@ def add_athlete():
         return jsonify({"error": str(e)}), 500
 
 # 3. Get Chart Data (For analytics.html)
-@app.route('/api/analytics')
+@app.route('/api/analytics', methods=['GET'])
 def get_analytics():
     # Example: Top 5 countries by total medals (You can adjust this query!)
     with engine.connect() as conn:
-        query = text("SELECT country, SUM(medals) as total FROM Athlete GROUP BY country ORDER BY total DESC LIMIT 5")
+        query = text("SELECT c.FullName, COUNT(r.Place) as MedalCount" \
+        " FROM Country c JOIN Result r ON c.NOC = r.NOC" \
+            " WHERE r.Place IN (1,2,3)" \
+            " GROUP BY c.FullName" \
+            " ORDER BY MedalCount DESC" \
+                "LIMIT 10")
         result = conn.execute(query)
-        data = [{"label": row[0], "value": row[1]} for row in result]
+        data = [{"Name": row[0], "Medal Count": row[1]} for row in result]
     return jsonify(data)
 
 if __name__ == '__main__':
