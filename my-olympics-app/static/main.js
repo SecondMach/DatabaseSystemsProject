@@ -62,6 +62,70 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch(err => console.error("Error loading athletes:", err));
     }
 
+    // ===============================
+    // ATHLETE SEARCH BAR
+    // ===============================
+    const searchInput = document.getElementById('athleteSearch');
+
+    if (searchInput) {
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                runAthleteSearch(searchInput.value.trim());
+            }
+        });
+    }
+
+    function runAthleteSearch(query) {
+        fetch(`/api/search_athletes?q=${encodeURIComponent(query)}`)
+            .then(res => res.json())
+            .then(data => {
+                athleteTableBody.innerHTML = ""; // clear table
+
+                if (data.length === 0) {
+                    // Show placeholder row
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td colspan="6" style="text-align:center; padding:1.5rem; color:#777;">
+                            ❌ No results found for "<strong>${query}</strong>"
+                        </td>
+                    `;
+                    athleteTableBody.appendChild(row);
+                    return;
+                }
+
+                data.forEach(athlete => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${athlete.id}</td>
+                        <td>${athlete.born_date}</td>
+                        <td>${athlete.born_country}</td>
+                        <td>${athlete.first_name}</td>
+                        <td>${athlete.last_name}</td>
+                        <td>
+                            <button class="edit-btn">✎</button>
+                            <button class="delete-btn">🗑</button>
+                        </td>
+                    `;
+
+                    // reattach edit/delete listeners
+                    row.querySelector('.edit-btn').addEventListener('click', () => {
+                        populateFormForEdit(athlete);
+                    });
+
+                    row.querySelector('.delete-btn').addEventListener('click', () => {
+                        if (confirm(`Are you sure you want to delete ${athlete.first_name} ${athlete.last_name}?`)) {
+                            fetch(`/api/athletes/${athlete.id}`, { method: 'DELETE' })
+                                .then(r => r.ok ? window.location.reload() : alert("Error deleting"));
+                        }
+                    });
+
+                    athleteTableBody.appendChild(row);
+                });
+            })
+            .catch(err => console.error("Search error:", err));
+    }
+
     //Helper function to fill the form when "Edit" is clicked
     function populateFormForEdit(athlete) {
         if (!athleteForm) return;

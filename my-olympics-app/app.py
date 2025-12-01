@@ -116,6 +116,72 @@ def add_athlete():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+# --- SEARCH ATHLETES ---
+@app.route('/api/search_athletes')
+def search_athletes():
+    raw_q = request.args.get("q", "").strip()
+
+    # empty search → return nothing (or return all if you prefer)
+    if raw_q == "":
+        return jsonify([])
+    
+    # break full queries into pieces
+    parts = raw_q.split()
+    like_q = f"%{raw_q}%"
+
+    try:
+        with engine.connect() as conn:
+            # if user enters "Usain Bolt", we detect 2 parts
+            if len(parts) >= 2:
+                first, last = parts[0], parts[1]
+                query = text("""
+                    SELECT Athlete_id, Born_date, Born_country, FirstName, LastName
+                    FROM Athlete
+                    WHERE 
+                        (FirstName LIKE :first AND LastName LIKE :last)
+                        OR CONCAT(FirstName, ' ', LastName) LIKE :full
+                        OR Athlete_id LIKE :full
+                        OR Born_country LIKE :full
+                    LIMIT 100
+                """)
+                params = {
+                    "first": f"%{first}%",
+                    "last": f"%{last}%",
+                    "full": like_q
+                }
+
+            else:  
+                # single-word search
+                query = text("""
+                    SELECT Athlete_id, Born_date, Born_country, FirstName, LastName
+                    FROM Athlete
+                    WHERE 
+                        FirstName LIKE :q
+                        OR LastName LIKE :q
+                        OR CONCAT(FirstName, ' ', LastName) LIKE :q
+                        OR Athlete_id LIKE :q
+                        OR Born_country LIKE :q
+                    LIMIT 100
+                """)
+                params = {"q": like_q}
+
+            rs = conn.execute(query, params)
+
+            results = [
+                {
+                    "id": row[0],
+                    "born_date": row[1],
+                    "born_country": row[2],
+                    "first_name": row[3],
+                    "last_name": row[4],
+                }
+                for row in rs
+            ]
+        return jsonify(results)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 # 3. Get Chart Data (For analytics.html)
 @app.route('/api/analytics', methods=['GET'])
 def get_analytics():
