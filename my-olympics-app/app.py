@@ -236,5 +236,89 @@ def analytics_chart():
     except Exception as e:
         print("Error generating chart:", e)
         return str(e), 500
+
+# Get Olympic Games (For games.html)
+@app.route('/api/games', methods=['GET'])
+def get_games():
+    try:
+        with engine.connect() as conn:
+            query = text("""
+                SELECT 
+                    og.Year,
+                    og.Season,
+                    og.City,
+                    c2.FullName AS Country
+                FROM OlympicGames og
+                JOIN City c ON og.City = c.City
+                JOIN Country c2 ON c.NOC = c2.NOC
+                ORDER BY og.Year DESC
+            """)
+            result = conn.execute(query)
+
+            games = [
+                {
+                    "year": row[0],
+                    "season": row[1],
+                    "city": row[2],
+                    "country": row[3]
+                }
+                for row in result
+            ]
+
+        return jsonify(games)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
+# Filter Olympic Games (For games.html)
+@app.route('/api/games/filter', methods=['GET'])
+def filter_games():
+    season = request.args.get("season", None)
+    year = request.args.get("year", None)
+
+    try:
+        conditions = []
+        params = {}
+
+        if season and season != "All Types":
+            conditions.append("og.Season = :season")
+            params["season"] = season
+
+        if year and year != "All Years":
+            conditions.append("og.Year = :year")
+            params["year"] = year
+
+        where_clause = ("WHERE " + " AND ".join(conditions)) if conditions else ""
+
+        with engine.connect() as conn:
+            query = text(f"""
+                SELECT 
+                    og.Year,
+                    og.Season,
+                    og.City,
+                    c2.FullName AS Country
+                FROM OlympicGames og
+                JOIN City c ON og.City = c.City
+                JOIN Country c2 ON c.NOC = c2.NOC
+                {where_clause}
+                ORDER BY og.Year DESC
+            """)
+
+            result = conn.execute(query, params)
+
+            games = [
+                {
+                    "year": row[0],
+                    "season": row[1],
+                    "city": row[2],
+                    "country": row[3]
+                }
+                for row in result
+            ]
+
+        return jsonify(games)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 if __name__ == '__main__':
     app.run(debug=True)
