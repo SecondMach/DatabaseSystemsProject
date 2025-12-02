@@ -255,4 +255,84 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // =====================================
+    // 5. GAMES PAGE LOGIC
+    // =====================================
+    const gamesGrid = document.querySelector('.games-grid');
+
+    if (gamesGrid) {
+        
+        const seasonSelect = document.querySelector('.filter-bar select:nth-child(1)');
+        const yearSelect = document.querySelector('.filter-bar select:nth-child(2)');
+        const filterBtn = document.querySelector('.filter-btn');
+        const clearBtn = document.querySelector('.clear-btn');
+
+        // Load years dropdown
+        fetch('/api/games')
+            .then(res => res.json())
+            .then(data => {
+
+                // Populate years
+                const years = [...new Set(data.map(g => g.year))].sort((a,b) => b - a);
+                years.forEach(year => {
+                    const opt = document.createElement('option');
+                    opt.value = year;
+                    opt.textContent = year;
+                    yearSelect.appendChild(opt);
+                });
+
+                renderGames(data);
+            });
+
+        // Filter handler
+        filterBtn.addEventListener('click', () => {
+            const season = seasonSelect.value;
+            const year = yearSelect.value;
+
+            const url = `/api/games/filter?season=${season}&year=${year}`;
+
+            fetch(url)
+                .then(res => res.json())
+                .then(data => renderGames(data));
+        });
+
+        // Clear button handler
+        if (clearBtn) {
+            clearBtn.addEventListener('click', () => {
+
+                // Reset dropdowns
+                seasonSelect.selectedIndex = 0;
+                yearSelect.selectedIndex = 0;
+
+                // Re-fetch ALL games
+                fetch('/api/games')
+                    .then(res => res.json())
+                    .then(data => renderGames(data));
+            });
+        }
+
+        // Render games
+        function renderGames(games) {
+            gamesGrid.innerHTML = "";
+
+            if (games.length === 0) {
+                gamesGrid.innerHTML = `<p>No games found.</p>`;
+                return;
+            }
+
+            games.forEach(game => {
+                const card = document.createElement('div');
+                card.classList.add('game-card');
+
+                card.innerHTML = `
+                    <h3>${game.year} — ${game.season}</h3>
+                    <p><strong>Host City:</strong> ${game.city}</p>
+                    <p><strong>Country:</strong> ${game.country}</p>
+                `;
+
+                gamesGrid.appendChild(card);
+            });
+        }
+    }
 });
