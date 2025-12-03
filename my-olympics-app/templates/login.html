@@ -19,11 +19,11 @@
     </nav>
   </header>
 
-  <section class="login-container" method="POST" action="/login">
+  <section class="login-container">
     <h2>Welcome Back</h2>
     <p>Login to continue as an Admin</p>
 
-    <form class="login-form">
+    <form class="login-form" method="POST" action="/login">
       <label for="username">Username</label>
       <input type="text" id="username" name="username" placeholder="Enter username" required>
 
