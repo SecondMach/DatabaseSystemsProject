@@ -236,7 +236,8 @@ def host_advantage():
                     AND r.NOC = h.HostNOC 
                     AND r.Place IN (1, 2, 3)
                 GROUP BY h.Year, h.HostCountry
-                ORDER BY h.Year;
+                ORDER BY h.Year DESC
+                LIMIT 10;
             """)
 
             result = conn.execute(query)
