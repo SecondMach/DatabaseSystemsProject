@@ -8,6 +8,9 @@ import matplotlib.pyplot as plt
 import io
 import seaborn as sns
 
+import matplotlib
+matplotlib.use('Agg')
+
 app = Flask(__name__)
 
 app.secret_key = os.environ.get("SECRET_KEY")
