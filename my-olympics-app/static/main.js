@@ -271,6 +271,25 @@ document.addEventListener('DOMContentLoaded', () => {
     //         });
     // }
 
+    // ==================================================
+    //  MOST VERSATILE ATHLETES TABLE
+    // ==================================================
+    const versatileTableBody = document.getElementById('versatileTableBody');
+
+    if (versatileTableBody) {
+        fetch('/api/versatile')
+            .then(res => res.json())
+            .then(data => {
+                versatileTableBody.innerHTML = data.map(d => `
+                    <tr>
+                        <td>${d.Name}</td>
+                        <td>${d.Sports}</td>
+                    </tr>
+                `).join('');
+            })
+            .catch(err => console.error("Versatile Athletes Error:", err));
+    }
+
     // =====================================
     // 5. GAMES PAGE LOGIC
     // =====================================
