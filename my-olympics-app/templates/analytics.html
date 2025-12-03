@@ -70,6 +70,15 @@
       <img src="{{ url_for('analytics_chart') }}" alt="Analytics Chart" style="width: 100%; height: auto;">
     </div>
   </div>
+
+  <div class="analytics-grid">
+    <div class="chart-card">
+      <h3>Host City Advantage Chart</h3>
+      <img src="{{ url_for('host_advantage_chart') }}" 
+          alt="Host Advantage Chart" 
+          style="width: 100%; height: auto;">
+    </div>
+  </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="{{ url_for('static', filename='main.js') }}"></script>
 </body>
