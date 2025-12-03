@@ -1,4 +1,33 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+    // ============================
+    // 1. ADMIN VISIBILITY CHECK
+    // ============================
+    // fetch admin status
+    fetch('/api/whoami')
+        .then(r => r.json())
+        .then(data => {
+            if (data.is_admin) {
+                document.querySelectorAll('.admin-only').forEach(el => {
+                    el.classList.add('show-admin');
+                });
+            }
+        });
+
+    // ====================================================================
+    // Show admin-only elements for newly created rows/elements
+    // ====================================================================
+    function applyAdminVisibility() {
+        fetch('/api/whoami')
+            .then(r => r.json())
+            .then(data => {
+                if (data.is_admin) {
+                    document.querySelectorAll('.admin-only').forEach(el => {
+                        el.classList.add('show-admin');
+                    });
+                }
+            });
+    }
     
     // --- STATE VARIABLES ---
     let currentEditingId = null; // null = adding mode, number = editing mode
@@ -10,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitBtn = athleteForm ? athleteForm.querySelector('button') : null;
 
     // ==================================================
-    // 1. ATHLETES PAGE LOGIC
+    // 2. ATHLETES PAGE LOGIC
     // ==================================================
     if (athleteTableBody) {
         fetch('/api/athletes')
@@ -27,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <td>${athlete.born_country}</td>
                         <td>${athlete.first_name}</td>
                         <td>${athlete.last_name}</td>
-                        <td>
+                        <td class="admin-only">
                             <button class="edit-btn">✎</button>
                             <button class="delete-btn">🗑</button>
                         </td>
@@ -57,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
 
                     athleteTableBody.appendChild(row);
+                    applyAdminVisibility();
                 });
             })
             .catch(err => console.error("Error loading athletes:", err));
@@ -102,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <td>${athlete.born_country}</td>
                         <td>${athlete.first_name}</td>
                         <td>${athlete.last_name}</td>
-                        <td>
+                        <td class="admin-only">
                             <button class="edit-btn">✎</button>
                             <button class="delete-btn">🗑</button>
                         </td>
@@ -121,6 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
 
                     athleteTableBody.appendChild(row);
+                    applyAdminVisibility();
                 });
             })
             .catch(err => console.error("Search error:", err));
@@ -151,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==================================================
-    // 2. FORM SUBMIT LOGIC (Handles ADD and EDIT)
+    // 3. FORM SUBMIT LOGIC (Handles ADD and EDIT)
     // ==================================================
     if (athleteForm) {
         athleteForm.addEventListener('submit', (e) => {
@@ -203,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==================================================
-    // 3. ANALYTICS PAGE LOGIC (Chart.js)
+    // 4. ANALYTICS PAGE LOGIC (Chart.js)
     // ==================================================
     const goatTableBody = document.getElementById('goatTableBody');
 
@@ -239,22 +270,6 @@ document.addEventListener('DOMContentLoaded', () => {
     //             });
     //         });
     // }
-
-    // ==================================================
-    // 4. LOGIN LOGIC
-    // ==================================================
-    const loginForm = document.querySelector('.login-form');
-
-    if (loginForm) {
-        loginForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const username = document.getElementById('username').value;
-            if (username) {
-                alert(`Welcome back, ${username}!`);
-                window.location.href = '/index.html';
-            }
-        });
-    }
 
     // =====================================
     // 5. GAMES PAGE LOGIC
