@@ -241,6 +241,42 @@ def analytics_chart():
         print("Error generating chart:", e)
         return str(e), 500
 
+# ======================================================================
+# Most Versatile Athletes API
+# ======================================================================
+@app.route('/api/versatile', methods=['GET'])
+def get_most_versatile():
+    try:
+        with engine.connect() as conn:
+            query = text("""
+                SELECT 
+                    a.Athlete_id,
+                    a.FirstName,
+                    a.LastName,
+                    COUNT(DISTINCT r.Event) AS NumSportsMedaled
+                FROM Athlete a
+                JOIN Result r ON a.Athlete_id = r.Athlete_id
+                JOIN Event e ON r.Event = e.Event AND r.Year = e.Year
+                WHERE r.Place IN (1, 2, 3)
+                GROUP BY a.Athlete_id, a.FirstName, a.LastName
+                HAVING COUNT(DISTINCT r.Event) > 1
+                ORDER BY NumSportsMedaled DESC;
+            """)
+            result = conn.execute(query)
+
+            versatile = [
+                {
+                    "Name": f"{row[1]} {row[2]}",
+                    "Sports": row[3]
+                }
+                for row in result
+            ]
+
+        return jsonify(versatile)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 # Get Olympic Games (For games.html)
 @app.route('/api/games', methods=['GET'])
 def get_games():
