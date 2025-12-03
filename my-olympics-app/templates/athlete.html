@@ -11,10 +11,12 @@
     <div class="logo">🏅 Olympics</div>
     <nav>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="games.html">Games</a></li>
-        <li><a href="athlete.html" class="active">Athletes</a></li>
-        <li><a href="analytics.html">Analytics</a></li>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('games') }}">Games</a></li>
+        <li><a href="{{ url_for('athletes_page') }}">Athletes</a></li>
+        <li><a href="{{ url_for('analytics') }}">Analytics</a></li>
+        <li><a href="{{ url_for('login') }}">Login</a></li>
+        <li class="admin-only"><a href="{{ url_for('logout') }}">Logout</a></li>
       </ul>
     </nav>
   </header>
@@ -34,7 +36,7 @@
         <tr>
           <!-- <th>Name</th><th>Country</th><th>Sport</th><th>Year</th><th>Division</th><th>Medals</th><th>Actions (Admin)</th> -->
            <!-- Changed to represent modified athlete table -->
-          <th>ID </th><th>Date Of Birth</th><th>Country</th><th>First Name</th><th>Last Name</th><th>Actions (Admin)</th>
+          <th>ID </th><th>Date Of Birth</th><th>Country</th><th>First Name</th><th>Last Name</th><th class="admin-only">Actions (Admin)</th>
         </tr>
       </thead>
       <tbody id="athleteTableBody">
