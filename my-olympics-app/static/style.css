@@ -285,6 +285,22 @@ tr:hover {
 .edit-btn:hover { color: #0099ff; transform: scale(1.2); }
 .delete-btn:hover { color: crimson; transform: scale(1.2); }
 
+/* hide admin stuff by default */
+.admin-only {
+  display: none; 
+}
+
+/* show admin stuff for normal elements */
+.admin-only.show-admin {
+  display: block;
+}
+
+/* show admin table cells properly */
+td.admin-only.show-admin,
+th.admin-only.show-admin {
+  display: table-cell;
+}
+
 /* ===== ATHLETE FORM (Admin) ===== */
 .athlete-form {
   max-width: 1000px;
