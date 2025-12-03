@@ -489,7 +489,7 @@ th.admin-only.show-admin {
   border-bottom: 1px solid #eee;
 }
 
-.goat-table table {
+.goat-table table, .host-advantage-table table {
   width: 100%;
   border-collapse: collapse;
   background: white;
