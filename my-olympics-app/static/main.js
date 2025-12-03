@@ -272,22 +272,44 @@ document.addEventListener('DOMContentLoaded', () => {
     // }
 
     // ==================================================
-    //  MOST VERSATILE ATHLETES TABLE
+    //  HOST CITY ADVANTAGE TABLE
     // ==================================================
-    const versatileTableBody = document.getElementById('versatileTableBody');
+    const hostTableBody = document.getElementById('hostAdvantageTableBody');
 
-    if (versatileTableBody) {
-        fetch('/api/versatile')
+    if (hostTableBody) {
+        fetch('/api/host_advantage')
             .then(res => res.json())
             .then(data => {
-                versatileTableBody.innerHTML = data.map(d => `
+
+                if (data.empty) {
+                    hostTableBody.innerHTML = `
+                        <tr>
+                            <td colspan="3" style="text-align:center; padding:1rem; color:#777;">
+                                No hosting advantage data found.
+                            </td>
+                        </tr>
+                    `;
+                    return;
+                }
+
+                hostTableBody.innerHTML = data.map(d => `
                     <tr>
-                        <td>${d.Name}</td>
-                        <td>${d.Sports}</td>
+                        <td>${d.Year}</td>
+                        <td>${d.HostCountry}</td>
+                        <td>${d.HostMedals}</td>
                     </tr>
                 `).join('');
             })
-            .catch(err => console.error("Versatile Athletes Error:", err));
+            .catch(err => {
+                console.error("Host Advantage Error:", err);
+                hostTableBody.innerHTML = `
+                    <tr>
+                        <td colspan="3" style="text-align:center; padding:1rem; color:#e00;">
+                            Error loading data.
+                        </td>
+                    </tr>
+                `;
+            });
     }
 
     // =====================================
