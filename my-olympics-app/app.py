@@ -208,6 +208,53 @@ def get_analytics():
         data = [{"Name": row[0], "Medal Count": row[1]} for row in result]
     return jsonify(data)
 
+# Get Host City Advantage Data (For analytics.html)
+@app.route('/api/host_advantage', methods=['GET'])
+def host_advantage():
+    try:
+        with engine.connect() as conn:
+            query = text("""
+                WITH HostYears AS (
+                    SELECT 
+                        og.Year,
+                        c.NOC AS HostNOC,
+                        c.FullName AS HostCountry
+                    FROM OlympicGames og
+                    JOIN City ci ON og.City = ci.City
+                    JOIN Country c ON ci.NOC = c.NOC
+                )
+                SELECT 
+                    h.Year,
+                    h.HostCountry,
+                    COUNT(r.Athlete_id) AS HostMedals
+                FROM HostYears h
+                LEFT JOIN Result r 
+                    ON r.Year = h.Year 
+                    AND r.NOC = h.HostNOC 
+                    AND r.Place IN (1, 2, 3)
+                GROUP BY h.Year, h.HostCountry
+                ORDER BY h.Year;
+            """)
+
+            result = conn.execute(query)
+
+            data = [
+                {
+                    "Year": row[0],
+                    "HostCountry": row[1],
+                    "HostMedals": row[2]
+                }
+                for row in result
+            ]
+
+        if not data:
+            return jsonify({"empty": True})
+
+        return jsonify(data)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 @app.route('/analytics/chart.png')
 def analytics_chart():
     try:
@@ -241,41 +288,55 @@ def analytics_chart():
         print("Error generating chart:", e)
         return str(e), 500
 
-# ======================================================================
-# Most Versatile Athletes API
-# ======================================================================
-@app.route('/api/versatile', methods=['GET'])
-def get_most_versatile():
+# Host City Advantage Chart    
+@app.route('/analytics/host_chart.png')
+def host_advantage_chart():
     try:
         with engine.connect() as conn:
             query = text("""
+                WITH HostYears AS (
+                    SELECT 
+                        og.Year,
+                        c.NOC AS HostNOC,
+                        c.FullName AS HostCountry
+                    FROM OlympicGames og
+                    JOIN City ci ON og.City = ci.City
+                    JOIN Country c ON ci.NOC = c.NOC
+                )
                 SELECT 
-                    a.Athlete_id,
-                    a.FirstName,
-                    a.LastName,
-                    COUNT(DISTINCT r.Event) AS NumSportsMedaled
-                FROM Athlete a
-                JOIN Result r ON a.Athlete_id = r.Athlete_id
-                JOIN Event e ON r.Event = e.Event AND r.Year = e.Year
-                WHERE r.Place IN (1, 2, 3)
-                GROUP BY a.Athlete_id, a.FirstName, a.LastName
-                HAVING COUNT(DISTINCT r.Event) > 1
-                ORDER BY NumSportsMedaled DESC;
+                    h.Year,
+                    h.HostCountry,
+                    COUNT(r.Athlete_id) AS HostMedals
+                FROM HostYears h
+                LEFT JOIN Result r 
+                    ON r.Year = h.Year 
+                    AND r.NOC = h.HostNOC 
+                    AND r.Place IN (1, 2, 3)
+                GROUP BY h.Year, h.HostCountry
+                ORDER BY h.Year;
             """)
-            result = conn.execute(query)
 
-            versatile = [
-                {
-                    "Name": f"{row[1]} {row[2]}",
-                    "Sports": row[3]
-                }
-                for row in result
-            ]
+            df = pd.read_sql(query, conn)
 
-        return jsonify(versatile)
+        sns.set_theme(style="whitegrid")
+        plt.figure(figsize=(12, 6))
+        ax = sns.barplot(x="Year", y="HostMedals", data=df, palette="crest")
+        ax.set_title("Host City Advantage — Medals Won by Host Country")
+        ax.set_xlabel("Olympic Year")
+        ax.set_ylabel("Medals Won")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+
+        img = io.BytesIO()
+        plt.savefig(img, format='png')
+        img.seek(0)
+        plt.close()
+
+        return send_file(img, mimetype='image/png')
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        print("Error generating host chart:", e)
+        return str(e), 500
 
 # Get Olympic Games (For games.html)
 @app.route('/api/games', methods=['GET'])
