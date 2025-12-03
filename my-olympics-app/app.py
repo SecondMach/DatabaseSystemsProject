@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify, request, redirect, url_for
+from flask import Flask, render_template, jsonify, request, redirect, url_for, session
 from flask import Response, send_file
 from sqlalchemy import create_engine, text
 import os
@@ -9,6 +9,10 @@ import io
 import seaborn as sns
 
 app = Flask(__name__)
+
+app.secret_key = os.environ.get("SECRET_KEY")
+ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD")
 
 # --- CONFIGURATION ---
 # REPLACE THESE WITH YOUR AWS/AZURE DETAILS
@@ -319,6 +323,31 @@ def filter_games():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+# Login Route (For login.html)
+@app.route('/login', methods=['POST'])
+def login_user():
+    username = request.form.get('username')
+    password = request.form.get('password')
+
+    # Hardcoded admin credentials
+    if username == ADMIN_USERNAME and password == ADMIN_PASSWORD:
+        session['is_admin'] = True
+    else:
+        session['is_admin'] = False
+
+    return redirect('/athlete.html')
+
+@app.route('/api/whoami')
+def whoami():
+    return jsonify({
+        "is_admin": session.get("is_admin", False)
+    })
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    return redirect('/index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
